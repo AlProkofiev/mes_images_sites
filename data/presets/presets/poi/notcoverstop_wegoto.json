@@ -1,0 +1,19 @@
+{
+    "icon": "bus-not-stop",
+    "geometry": [
+        "point"
+       
+    ],
+         "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+        "atm",
+        "distributeur"
+    ],
+    "tags": {
+        "obstacle:type": "not_cover_stop"
+    },
+    "name": "Not cover Stop"
+}

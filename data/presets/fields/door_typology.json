@@ -1,0 +1,16 @@
+{
+    "key": "fr.wegoto.door.typology",
+    "type": "combo",
+    "label": "Door Typology",
+    "strings": {
+        "options": {
+             "automatic":"automatic",
+"articulated_1_leaves":"articulated_1_leaves",
+"articulated_2_leaves":"articulated_2_leaves",
+"automatic_no":"automatic_no"
+            
+
+          
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "key": "width",
+    "type": "number",
+    "label": "Width ",
+    "placeholder":"En cm"
+}

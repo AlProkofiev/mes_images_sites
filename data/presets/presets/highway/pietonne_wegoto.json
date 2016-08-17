@@ -1,0 +1,33 @@
+{
+    "icon": "highway-footway",
+    "fields": [
+    
+        "address",
+        "incline_wegoto",
+        "kerb",
+        "width",
+        "elevation",
+        "smoothness_wegoto",
+        "shoulder_right",
+        "shoulder_left",
+        "line_right",
+        "line_left",
+        "surface_wegoto"
+
+    ],
+    "geometry": [
+        "line",
+        "area"
+    ],
+    "tags": {
+        "highway": "pedestrian"
+        
+    },
+    "removeTags": {
+              "highway": "pedestrian"
+
+            
+        },
+    "terms": [],
+    "name": "Pedestrian Street"
+}

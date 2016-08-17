@@ -1,0 +1,19 @@
+{
+    "icon": "building",
+    "geometry": [
+        "point"
+       
+    ],
+         "fields": [
+	"door_typology"
+	
+        ],
+    "terms": [
+        "building",
+        "bâtiment"
+    ],
+    "tags": {
+        "buildings": "yes"
+    },
+    "name": "Building"
+}

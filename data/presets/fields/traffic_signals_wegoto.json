@@ -1,0 +1,9 @@
+{
+    "key": "traffic_signals:presence",
+    "type": "check",
+ 
+    "label": "Traffic signal"
+  
+    
+ 
+}

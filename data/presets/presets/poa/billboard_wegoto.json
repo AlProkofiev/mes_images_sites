@@ -1,0 +1,19 @@
+{
+    "icon": "billboard",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+        "Billboard",
+        "Panneau publicitaire"
+    ],
+    "tags": {
+        "obstacle:type": "billboard"
+    },
+    "name": "Billboard"
+}

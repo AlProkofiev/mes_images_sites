@@ -1,0 +1,32 @@
+{
+    "icon": "highway-footway",
+    "fields": [
+    "address",
+        "incline_wegoto",
+        "kerb",
+        "width",
+        "elevation",
+        "smoothness_wegoto",
+        "shoulder_right",
+        "shoulder_left",
+        "line_right",
+        "line_left",
+        "surface_wegoto"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway":"footway",
+        "footway": "sidewalk"
+        
+    },
+        "removeTags": {
+              "highway": "footway",
+               "footway": "sidewalk"
+
+            
+        },
+    "terms": [],
+    "name": "SideWalk"
+}

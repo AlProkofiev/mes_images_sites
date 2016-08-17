@@ -1,0 +1,19 @@
+{
+    "icon": "atm",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+        "atm",
+        "distributeur"
+    ],
+    "tags": {
+        "obstacle:type": "atm"
+    },
+    "name": "ATM"
+}

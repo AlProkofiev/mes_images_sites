@@ -1,0 +1,17 @@
+{
+    "key": "crossing_ref",
+    "type": "combo",
+    "label": "Crossing reference",
+    "placeholder": "Bande blanche, absence de marquage, ...",
+    "strings": {
+        "options": {
+            "zebra":"Zebra",
+            "dammaged": "Dammaged",
+            "unmarked": "Unmarked",
+            "other":"Other",
+            "temporary":"Temporary"
+
+          
+        }
+    }
+}

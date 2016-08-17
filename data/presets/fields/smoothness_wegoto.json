@@ -1,0 +1,14 @@
+{
+    "key": "smoothness",
+    "type": "combo",
+    "label": "Smoothnesss",
+    "placeholder": "Excellent, intermediate, Bad...",
+    "strings": {
+        "options": {
+            "excellent":"Excellent",
+            "intermediate": "Intermediate",
+            "bad": "Bad"
+          
+        }
+    }
+}

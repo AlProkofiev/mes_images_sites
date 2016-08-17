@@ -1,0 +1,23 @@
+{
+    "area": [
+        "area"
+    ],
+    "line": [
+        "category-road",
+        "line"
+    ],
+    "point": [
+        "category-poi",
+        "category-poa",
+        "category-rupture"
+        
+    ],
+    "vertex": [
+        "highway/traversee_sortie",
+        "highway/ilot_sortie",
+        "vertex"
+    ],
+    "relation": [
+        "relation"
+    ]
+}

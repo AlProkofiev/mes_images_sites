@@ -1,0 +1,19 @@
+{
+    "icon": "poteau",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+        "little_sign",
+        "distributeur"
+    ],
+    "tags": {
+        "obstacle:type": "little_sign"
+    },
+    "name": "little sign"
+}

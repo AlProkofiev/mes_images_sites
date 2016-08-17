@@ -1,0 +1,28 @@
+{
+    "icon": "waterway-ditch",
+    "fields": [
+     
+        "incline_wegoto",
+        "kerb",
+        "width",
+        "elevation",
+        "surface_wegoto",
+        "smoothness_wegoto"
+        
+
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "footway": "crossing"
+    
+    },
+        "removeTags": {
+              "footway": "crossing"
+
+            
+        },
+    
+    "name": "Street Crossing"
+}

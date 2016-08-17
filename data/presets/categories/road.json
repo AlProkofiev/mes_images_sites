@@ -1,0 +1,18 @@
+{
+    "geometry": "line",
+    "name": "Road Features",
+    "icon": "category-roads",
+    "members": [
+        "highway/trottoir_wegoto",
+        "highway/chemin_wegoto",
+        "highway/chausse_wegoto",
+        "highway/pietonne_wegoto",
+        "highway/cyclable_wegoto",
+        "highway/traversee_wegoto",
+        "highway/ilot_wegoto",
+        "highway/autre_wegoto"
+
+        
+        
+    ]
+}

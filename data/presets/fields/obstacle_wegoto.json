@@ -1,0 +1,16 @@
+{
+    "key": "crossing:railway",
+    "type": "combo",
+    "label": "Crossing obstacle",
+    "placeholder": "Pas d'obstacle, rail,  ...",
+    "strings": {
+        "options": {
+            "no":"No",
+            "yes": "Yes"
+           
+            
+
+          
+        }
+    }
+}

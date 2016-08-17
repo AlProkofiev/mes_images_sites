@@ -1,0 +1,18 @@
+{
+    "key": "surface",
+    "type": "combo",
+    "label": "Surface",
+    "strings": {
+        "options": {
+            "asphalt":"Asphalt",
+            "paving_stone": "Paving stone",
+            "dirt": "Dirt",
+            "compacted": "Compacted",
+            "grass": "Grass",
+            "dalle": "Dalle",
+            "wood": "Wood"
+            
+          
+        }
+    }
+}

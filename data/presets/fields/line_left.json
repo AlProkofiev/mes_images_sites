@@ -1,0 +1,23 @@
+{
+    "key": "line:left",
+    "type": "combo",
+    "label": "Line left",
+    "strings":{
+   	 	"options": {
+             "bollard": "Bollard",
+            "post": "Post",
+            "ref": "Ref",
+            "sound_ref": "Sound ref",
+            "sidewalk": "Sidewalk",
+            "railing": "Railing",
+            "diagonal_cross": "Diagonal cross",
+            "tree": "Tree",
+            "hedge": "Hedge",
+            "gardener_box": "Gardener box",
+             "no": "Nothing"
+           
+              
+                }
+            }
+
+}

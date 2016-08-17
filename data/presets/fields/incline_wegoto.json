@@ -1,0 +1,6 @@
+{
+    "key": "incline",
+    "type": "number",
+    "label": "Incline",
+    "placeholder":" En % "
+}

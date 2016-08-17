@@ -1,0 +1,19 @@
+{
+    "icon": "banc2",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+        "bench stand",
+        "banc debout"
+    ],
+    "tags": {
+        "obstacle:type": "bench_stand"
+    },
+    "name": "Bench stand"
+}

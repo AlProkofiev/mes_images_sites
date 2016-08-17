@@ -1,0 +1,19 @@
+{
+    "icon": "autopartage",
+    "geometry": [
+        "point"
+       
+    ],
+         "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+        "Carpool",
+        "parking autopartage"
+    ],
+    "tags": {
+        "obstacle:type": "carpool_parking"
+    },
+    "name": "Carpool"
+}

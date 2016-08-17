@@ -1,0 +1,19 @@
+{
+    "icon": "veranda",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+        "Conservatory"
+        
+    ],
+    "tags": {
+        "obstacle:type": "conservatory"
+    },
+    "name": "Conservatory"
+}

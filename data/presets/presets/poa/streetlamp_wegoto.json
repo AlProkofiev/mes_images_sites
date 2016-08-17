@@ -1,0 +1,18 @@
+{
+    "icon": "lamp",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+       
+    ],
+    "tags": {
+        "obstacle:type": "street_lamp"
+    },
+    "name": "Street lamp"
+}

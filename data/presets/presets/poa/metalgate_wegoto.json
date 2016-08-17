@@ -1,0 +1,18 @@
+{
+    "icon": "metalgate",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+       
+    ],
+    "tags": {
+        "obstacle:type": "metal_gate"
+    },
+    "name": "Metal gate"
+}

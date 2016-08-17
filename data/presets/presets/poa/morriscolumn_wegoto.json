@@ -1,0 +1,19 @@
+{
+    "icon": "morris",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+        "atm",
+        "distributeur"
+    ],
+    "tags": {
+        "obstacle:type": "morris_column"
+    },
+    "name": "Morris column"
+}

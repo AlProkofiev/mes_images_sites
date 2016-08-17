@@ -1,0 +1,16 @@
+{
+    "key": "crossing:bollard:right",
+    "type": "combo",
+    "label": "Right crossing bollard",
+    "strings":{
+   	 	"options": {
+             "contrasted": "Contrasted",
+            "yes": "Yes",
+            "barrier": "Barrier",
+            "no": "No bollard",
+            "other": "Other"
+              
+                }
+            }
+
+}

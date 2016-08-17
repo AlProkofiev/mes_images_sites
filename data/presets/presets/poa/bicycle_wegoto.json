@@ -1,0 +1,19 @@
+{
+    "icon": "bicycle",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+        "bycicle",
+        "Velos"
+    ],
+    "tags": {
+        "obstacle:type": "bicycle"
+    },
+    "name": "Bycicle"
+}

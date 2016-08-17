@@ -1,0 +1,19 @@
+{
+    "icon": "bench",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+        "bench",
+        "banc assis"
+    ],
+    "tags": {
+        "obstacle:type": "bench"
+    },
+    "name": "Bench"
+}

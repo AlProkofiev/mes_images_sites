@@ -1,0 +1,17 @@
+{
+    "key": "crossing:shape",
+    "type": "combo",
+    "label": "Crossing shape",
+    "placeholder": "Droit, arrondi, ...",
+    "strings": {
+        "options": {
+            "straight":"Straight",
+            "curved:left": "Left Curved",
+            "curved:right": "Right Curved",
+            "other":"Other"
+            
+
+          
+        }
+    }
+}

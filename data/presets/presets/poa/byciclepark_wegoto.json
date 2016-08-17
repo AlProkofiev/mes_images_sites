@@ -1,0 +1,19 @@
+{
+    "icon": "bike-parking",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
+    "terms": [
+        "Bycicle park",
+        " parking vélos"
+    ],
+    "tags": {
+        "obstacle:type": "bicycle_park"
+    },
+    "name": "Bicycle park"
+}

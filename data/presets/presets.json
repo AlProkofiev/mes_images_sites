@@ -1,0 +1,1177 @@
+{
+    "address": {
+        "fields": [
+            "address"
+        ],
+        "geometry": [
+            "point"
+        ],
+        "tags": {
+            "addr:housenumber": "*"
+        },
+        "addTags": {},
+        "removeTags": {},
+        "matchScore": 0.2,
+        "name": "Address"
+    },
+    "highway/autre_wegoto": {
+        "icon": "highway-unclassified",
+        "fields": [
+            "address",
+            "incline_wegoto",
+            "kerb",
+            "width",
+            "elevation",
+            "smoothness_wegoto",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
+            "surface_wegoto"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "footway": "other"
+        },
+        "removeTags": {
+            "footway": "other"
+        },
+        "terms": [],
+        "name": "Other Road"
+    },
+    "highway/chausse_wegoto": {
+        "icon": "highway-path",
+        "fields": [
+            "address",
+            "incline_wegoto",
+            "kerb",
+            "width",
+            "elevation",
+            "smoothness_wegoto",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
+            "surface_wegoto"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "road"
+        },
+        "removeTags": {
+            "highway": "road"
+        },
+        "terms": [],
+        "name": "Road"
+    },
+    "highway/chemin_wegoto": {
+        "icon": "waterway-stream",
+        "fields": [
+            "address",
+            "incline_wegoto",
+            "kerb",
+            "width",
+            "elevation",
+            "smoothness_wegoto",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
+            "surface_wegoto"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "removeTags": {
+            "highway": "path"
+        },
+        "terms": [],
+        "name": "Path"
+    },
+    "highway/crossing": {
+        "fields": [
+            "crossing",
+            "sloped_curb",
+            "tactile_paving"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {
+            "highway": "crossing"
+        },
+        "terms": [],
+        "name": "Street Crossing"
+    },
+    "highway/cyclable_wegoto": {
+        "icon": "highway-cycleway",
+        "fields": [
+            "address",
+            "incline_wegoto",
+            "kerb",
+            "width",
+            "elevation",
+            "smoothness_wegoto",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
+            "surface_wegoto"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "cycleway"
+        },
+        "removeTags": {
+            "highway": "cycleway"
+        },
+        "terms": [
+            "bike"
+        ],
+        "name": "Cycle Path"
+    },
+    "highway/ilot_sortie": {
+        "icon": "circle",
+        "fields": [
+            "island_width_wegoto",
+            "island_tactile_paving_wegoto",
+            "island_high_wegoto",
+            "island_incline_wegoto",
+            "island_kerb_wegoto"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {
+            "island:node": "yes"
+        },
+        "removeTags": {
+            "island:node": "yes"
+        },
+        "terms": [],
+        "name": "island"
+    },
+    "highway/ilot_wegoto": {
+        "icon": "waterway-canal",
+        "fields": [
+            "incline_wegoto",
+            "kerb",
+            "width",
+            "elevation",
+            "surface_wegoto",
+            "smoothness_wegoto"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "footway": "island"
+        },
+        "removeTags": {
+            "footway": "island"
+        },
+        "terms": [],
+        "name": "Island"
+    },
+    "highway/pietonne_wegoto": {
+        "icon": "highway-footway",
+        "fields": [
+            "address",
+            "incline_wegoto",
+            "kerb",
+            "width",
+            "elevation",
+            "smoothness_wegoto",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
+            "surface_wegoto"
+        ],
+        "geometry": [
+            "line",
+            "area"
+        ],
+        "tags": {
+            "highway": "pedestrian"
+        },
+        "removeTags": {
+            "highway": "pedestrian"
+        },
+        "terms": [],
+        "name": "Pedestrian Street"
+    },
+    "highway/traversee_sortie": {
+        "icon": "circle",
+        "fields": [
+            "obstacle_wegoto",
+            "marquage_wegoto",
+            "surface_wegoto",
+            "poteau_gauche_wegoto",
+            "poteau_droit_wegoto",
+            "poteau_gauche_h_wegoto",
+            "poteau_droit_h_wegoto",
+            "largeur_traverse",
+            "chanfrein_wegoto",
+            "forme_trottoir_wegoto",
+            "tactile_paving",
+            "traffic_signals_wegoto",
+            "traffic_signals_wegoto2",
+            "incline_wegoto",
+            "kerb",
+            "hauteur_trottoir_wegoto"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {
+            "crossing:node": "yes"
+        },
+        "removeTags": {
+            "crossing:node": "yes"
+        },
+        "name": "Crossing"
+    },
+    "highway/traversee_wegoto": {
+        "icon": "waterway-ditch",
+        "fields": [
+            "incline_wegoto",
+            "kerb",
+            "width",
+            "elevation",
+            "surface_wegoto",
+            "smoothness_wegoto"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "footway": "crossing"
+        },
+        "removeTags": {
+            "footway": "crossing"
+        },
+        "name": "Street Crossing"
+    },
+    "highway/trottoir_wegoto": {
+        "icon": "highway-footway",
+        "fields": [
+            "address",
+            "incline_wegoto",
+            "kerb",
+            "width",
+            "elevation",
+            "smoothness_wegoto",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
+            "surface_wegoto"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "footway",
+            "footway": "sidewalk"
+        },
+        "removeTags": {
+            "highway": "footway",
+            "footway": "sidewalk"
+        },
+        "terms": [],
+        "name": "SideWalk"
+    },
+    "line": {
+        "name": "Line",
+        "tags": {},
+        "geometry": [
+            "line"
+        ],
+        "matchScore": 0.1
+    },
+    "poa/atm_wegoto": {
+        "icon": "atm",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "obstacle:type": "atm"
+        },
+        "name": "ATM"
+    },
+    "poa/bench_wegoto": {
+        "icon": "bench",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "bench",
+            "banc assis"
+        ],
+        "tags": {
+            "obstacle:type": "bench"
+        },
+        "name": "Bench"
+    },
+    "poa/benchstand_wegoto": {
+        "icon": "banc2",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "bench stand",
+            "banc debout"
+        ],
+        "tags": {
+            "obstacle:type": "bench_stand"
+        },
+        "name": "Bench stand"
+    },
+    "poa/bicycle_wegoto": {
+        "icon": "bicycle",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "bycicle",
+            "Velos"
+        ],
+        "tags": {
+            "obstacle:type": "bicycle"
+        },
+        "name": "Bycicle"
+    },
+    "poa/billboard_wegoto": {
+        "icon": "billboard",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "Billboard",
+            "Panneau publicitaire"
+        ],
+        "tags": {
+            "obstacle:type": "billboard"
+        },
+        "name": "Billboard"
+    },
+    "poa/byciclepark_wegoto": {
+        "icon": "bike-parking",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "Bycicle park",
+            " parking vélos"
+        ],
+        "tags": {
+            "obstacle:type": "bicycle_park"
+        },
+        "name": "Bicycle park"
+    },
+    "poa/carpool_wegoto": {
+        "icon": "autopartage",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "Carpool",
+            "parking autopartage"
+        ],
+        "tags": {
+            "obstacle:type": "carpool_parking"
+        },
+        "name": "Carpool"
+    },
+    "poa/conservatory_wegoto": {
+        "icon": "veranda",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "Conservatory"
+        ],
+        "tags": {
+            "obstacle:type": "conservatory"
+        },
+        "name": "Conservatory"
+    },
+    "poa/constrastedsign_wegoto": {
+        "icon": "poteau",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "constrasted_sign"
+        },
+        "name": "Constrasted sign"
+    },
+    "poa/coverstop_wegoto": {
+        "icon": "bus-stop",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "cover_stop"
+        },
+        "name": "Cover stop"
+    },
+    "poa/crack_wegoto": {
+        "icon": "fente",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "crack"
+        },
+        "name": "Crack"
+    },
+    "poa/electricCharge_wegoto": {
+        "icon": "fuel",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "electric_charge"
+        },
+        "name": "Electrical charge"
+    },
+    "poa/electricalpanel_wegoto": {
+        "icon": "electrical",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "electrical_panel"
+        },
+        "name": "Electrical panel"
+    },
+    "poa/fall_wegoto": {
+        "icon": "trou",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "fall"
+        },
+        "name": "Fall"
+    },
+    "poa/frontstep_wegoto": {
+        "icon": "front-step",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "front_step"
+        },
+        "name": "Front step"
+    },
+    "poa/gardenerbox_wegoto": {
+        "icon": "garden",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "gardener_box"
+        },
+        "name": "Gardener box"
+    },
+    "poa/handicapparking_wegoto": {
+        "icon": "disability",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "handicap_parking"
+        },
+        "name": "Handicap parking"
+    },
+    "poa/letterbox_wegoto": {
+        "icon": "post",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "letterbox"
+        },
+        "name": "Letterbox"
+    },
+    "poa/littlesign_wegoto": {
+        "icon": "poteau",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "little_sign",
+            "distributeur"
+        ],
+        "tags": {
+            "obstacle:type": "little_sign"
+        },
+        "name": "little sign"
+    },
+    "poa/masterpiece_wegoto": {
+        "icon": "art-gallery",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "masterpiece"
+        },
+        "name": "Master piece"
+    },
+    "poa/metalgate_wegoto": {
+        "icon": "metalgate",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "metal_gate"
+        },
+        "name": "Metal gate"
+    },
+    "poa/morriscolumn_wegoto": {
+        "icon": "morris",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "obstacle:type": "morris_column"
+        },
+        "name": "Morris column"
+    },
+    "poa/notcoverstop_wegoto": {
+        "icon": "bus-not-stop",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "obstacle:type": "not_cover_stop"
+        },
+        "name": "Not cover Stop"
+    },
+    "poa/overhanging_wegoto": {
+        "icon": "saillie",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "overhanging"
+        },
+        "name": "over Hanging"
+    },
+    "poa/parkingmeter_wegoto": {
+        "icon": "parking-meter",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "parking_meter"
+        },
+        "name": "Parking meter"
+    },
+    "poa/post_wegoto": {
+        "icon": "beer",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "post"
+        },
+        "name": "Post"
+    },
+    "poa/rail_wegoto": {
+        "icon": "rail",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "rail"
+        },
+        "name": "Rail"
+    },
+    "poa/roadsign_wegoto": {
+        "icon": "panneau2",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "road_sign"
+        },
+        "name": "Road sign"
+    },
+    "poa/separatewaste_wegoto": {
+        "icon": "bin",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "separate_waste"
+        },
+        "name": "Separate waste"
+    },
+    "poa/streetlamp_wegoto": {
+        "icon": "lamp",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "street_lamp"
+        },
+        "name": "Street lamp"
+    },
+    "poa/toilet_wegoto": {
+        "icon": "toilets",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "toilet"
+        },
+        "name": "Toilet"
+    },
+    "poa/trash_wegoto": {
+        "icon": "waste-basket",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "trash"
+        },
+        "name": "Trash"
+    },
+    "poa/tree_wegoto": {
+        "icon": "park2",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "tree"
+        },
+        "name": "Tree"
+    },
+    "poi/atm_wegoto": {
+        "icon": "atm",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "obstacle:type": "atm"
+        },
+        "name": "ATM"
+    },
+    "poi/bicycle_wegoto": {
+        "icon": "bicycle",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "bycicle",
+            "Velos"
+        ],
+        "tags": {
+            "obstacle:type": "bicycle"
+        },
+        "name": "Bicycle"
+    },
+    "poi/building": {
+        "icon": "building",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "door_typology"
+        ],
+        "terms": [
+            "building",
+            "bâtiment"
+        ],
+        "tags": {
+            "buildings": "yes"
+        },
+        "name": "Building"
+    },
+    "poi/byciclepark_wegoto": {
+        "icon": "bike-parking",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "Bycicle park",
+            " parking vélos"
+        ],
+        "tags": {
+            "obstacle:type": "bicycle_park"
+        },
+        "name": "Bicycle park"
+    },
+    "poi/carpool_wegoto": {
+        "icon": "autopartage",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "Carpool",
+            "parking autopartage"
+        ],
+        "tags": {
+            "obstacle:type": "carpool_parking"
+        },
+        "name": "Carpool"
+    },
+    "poi/coverstop_wegoto": {
+        "icon": "bus-stop",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "cover_stop"
+        },
+        "name": "Cover stop"
+    },
+    "poi/gardenerbox_wegoto": {
+        "icon": "garden",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "gardener_box"
+        },
+        "name": "Gardener box"
+    },
+    "poi/handicapparking_wegoto": {
+        "icon": "disability",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "handicap_parking"
+        },
+        "name": "Handicap parking"
+    },
+    "poi/letterbox_wegoto": {
+        "icon": "post",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "letterbox"
+        },
+        "name": "Letterbox"
+    },
+    "poi/masterpiece_wegoto": {
+        "icon": "art-gallery",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "masterpiece"
+        },
+        "name": "Master piece"
+    },
+    "poi/notcoverstop_wegoto": {
+        "icon": "bus-not-stop",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "obstacle:type": "not_cover_stop"
+        },
+        "name": "Not cover Stop"
+    },
+    "poi/parkingmeter_wegoto": {
+        "icon": "parking-meter",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "parking_meter"
+        },
+        "name": "Parking meter"
+    },
+    "poi/separatewaste_wegoto": {
+        "icon": "bin",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "separate_waste"
+        },
+        "name": "Separate waste"
+    },
+    "poi/toilet_wegoto": {
+        "icon": "toilets",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [],
+        "tags": {
+            "obstacle:type": "toilet"
+        },
+        "name": "Toilet"
+    },
+    "point": {
+        "name": "Point",
+        "tags": {},
+        "geometry": [
+            "point"
+        ],
+        "matchScore": 0.1
+    },
+    "relation": {
+        "name": "Relation",
+        "icon": "relation",
+        "tags": {},
+        "geometry": [
+            "relation"
+        ],
+        "fields": [
+            "relation"
+        ]
+    },
+    "rupture/marche_rampe": {
+        "icon": "ramp",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "incline_rupture",
+            "kerb_rupture"
+        ],
+        "tags": {
+            "breakpoint:presence": "onestep",
+            "breakpoint:ramp": "yes",
+            "breakpoint:elevator": "no"
+        },
+        "name": "Marche avec rampe de seuil"
+    },
+    "rupture/marche_sans_rampe": {
+        "icon": "ramp",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "high_rupture"
+        ],
+        "terms": [],
+        "tags": {
+            "breakpoint:presence": "onestep",
+            "breakpoint:ramp": "no",
+            "breakpoint:elevator": "no"
+        },
+        "name": "Marche sans rampe de seuil"
+    },
+    "rupture/marches": {
+        "icon": "ramp",
+        "geometry": [
+            "point"
+        ],
+        "fields": [],
+        "terms": [],
+        "tags": {
+            "breakpoint:presence": "twosteps",
+            "breakpoint:ramp": "no",
+            "breakpoint:elevator": "no"
+        },
+        "name": "Marches sans plan incliné sans ascenseur"
+    },
+    "rupture/marches_ascenseur": {
+        "icon": "ramp",
+        "geometry": [
+            "point"
+        ],
+        "fields": [],
+        "terms": [],
+        "tags": {
+            "breakpoint:presence": "twosteps",
+            "breakpoint:ramp": "no",
+            "breakpoint:elevator": "yes"
+        },
+        "name": "Marches avec ascenseur sans plan incliné"
+    },
+    "rupture/marches_plan": {
+        "icon": "ramp",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "incline_rupture",
+            "kerb_rupture"
+        ],
+        "terms": [],
+        "tags": {
+            "breakpoint:presence": "twosteps",
+            "breakpoint:ramp": "yes",
+            "breakpoint:elevator": "no"
+        },
+        "name": "Marches avec plan incliné sans ascenseur"
+    },
+    "rupture/marches_plan_acensceur": {
+        "icon": "ramp",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "incline_rupture",
+            "kerb_rupture"
+        ],
+        "terms": [],
+        "tags": {
+            "breakpoint:presence": "twosteps",
+            "breakpoint:ramp": "yes",
+            "breakpoint:elevator": "yes"
+        },
+        "name": "Marches avec plan incliné et ascenseur"
+    },
+    "vertex": {
+        "name": "Other",
+        "tags": {},
+        "geometry": [
+            "vertex"
+        ],
+        "matchScore": 0.1
+    }
+}

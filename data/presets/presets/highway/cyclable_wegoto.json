@@ -1,0 +1,35 @@
+{
+    "icon": "highway-cycleway",
+    "fields": [
+    "address",
+        "incline_wegoto",
+        "kerb",
+        "width",
+        "elevation",
+        "smoothness_wegoto",
+        "shoulder_right",
+        "shoulder_left",
+        "line_right",
+        "line_left",
+        "surface_wegoto"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+      
+        "highway": "cycleway"
+        
+        
+    },
+
+        "removeTags": {
+              "highway": "cycleway"
+
+            
+        },
+    "terms": [
+        "bike"
+    ],
+    "name": "Cycle Path"
+}

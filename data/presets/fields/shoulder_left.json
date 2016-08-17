@@ -1,0 +1,23 @@
+{
+    "key": "shoulder:left",
+    "type": "combo",
+    "label": "Shoulder left",
+    "strings": {
+        "options": {
+            "road":"Road",
+            "rail": "Rail",
+            "bicycle": "Bicycle",
+            "vegetation": "Vegetation",
+            "grass": "Grass",
+            "designated_parking": "Designated parking",
+            "longside_parking": "Longside parking",
+            "angled_parking": "Angled parking",
+            "wall": "Wall",
+            "building": "Building",
+            "house": "House",
+            "gap": "Gap",
+            "free_space": "Free space"
+          
+        }
+    }
+}

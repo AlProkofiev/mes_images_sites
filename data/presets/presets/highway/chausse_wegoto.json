@@ -1,0 +1,31 @@
+{
+    "icon": "highway-path",
+    "fields": [
+    "address",
+        "incline_wegoto",
+        "kerb",
+        "width",
+        "elevation",
+        "smoothness_wegoto",
+        "shoulder_right",
+        "shoulder_left",
+        "line_right",
+        "line_left",
+        "surface_wegoto"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        
+        "highway": "road"
+       
+    },
+        "removeTags": {
+              "highway": "road"
+
+            
+        },
+    "terms": [],
+    "name": "Road"
+}
