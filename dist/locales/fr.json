@@ -1621,8 +1621,8 @@
                 "placeholder": "0, 1, 2, 3..."
             },
             "name": {
-                "label": "Rue",
-                "placeholder": "Nom de la rue "
+                "label": "Nom de rue ou de bâtiment",
+                "placeholder": "Nom de la rue ou du bâtiment"
             },
             "city_wegoto": {
                 "label": "Ville "
