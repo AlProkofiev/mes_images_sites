@@ -44,6 +44,7 @@
         "name": "Point of interest",
         "icon": "poi",
         "members": [
+            "poi/building",
             "poi/atm_wegoto",
             "poi/bicycle_wegoto",
             "poi/carpool_wegoto",
