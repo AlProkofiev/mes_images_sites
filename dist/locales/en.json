@@ -639,8 +639,8 @@
                 "placeholders": {
                     "city": "City",
                     "postcode": "Postcode",
-                    "housenumber": "housenumber",
-                    "street": "street"
+                    "housenumber": "Housenumber",
+                    "street": "Street"
                 }
             },
             "bicycle_parking": {
@@ -865,7 +865,7 @@
             },
             "name": {
                 "label": "Name",
-                "placeholder": "Street"
+                "placeholder": "Name"
             },
             "node_bat_sens_ouverture": {
                 "label": "Door opening direction",

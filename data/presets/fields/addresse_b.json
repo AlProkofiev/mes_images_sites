@@ -16,8 +16,8 @@
         "placeholders": {
           "city": "City",
           "postcode": "Postcode",
-	  "housenumber":"housenumber",
-         "street":"street"
+	  "housenumber": "Housenumber",
+         "street": "Street"
         }
     }
 }
