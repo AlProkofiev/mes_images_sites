@@ -1,0 +1,15 @@
+{
+    "key": "fr.wegoto.opening",
+    "type": "combo",
+    "label": "Opening door",
+    "strings": {
+        "options": {
+"opened":"opened",
+"opened_button":"opened_button",
+"closed_intercom":"closed_intercom",
+"closed_with_card":"closed_with_card",
+"closed":"closed"
+
+        }
+    }
+}

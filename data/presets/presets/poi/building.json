@@ -5,8 +5,22 @@
        
     ],
          "fields": [
-	"door_typology"
-	
+	"door_typology",
+	"door_automatic",
+	"door_handle",
+	"entrance",
+	"entrancewidth_conformity",
+	"entrancewidth_obstacle",
+	"opening",
+	"name",
+	"operator",
+	"ramp_wheelchair",
+	"step_count",
+	"threshold_wheelchair",
+	"ramp_bearing",
+	"high_step",
+	"node_bat_sens_ouverture",
+	"addresse_b"
         ],
     "terms": [
         "building",

@@ -1,0 +1,11 @@
+{
+    "key": "threshold:wheelchair",
+    "type": "combo",
+    "label": "Threshold wheelchair",
+    "strings": {
+        "options": {
+             	"yes":"yes",
+		"no":"no"
+        }
+    }
+}

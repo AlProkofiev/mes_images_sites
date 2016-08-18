@@ -750,6 +750,26 @@
                     "suburb": "Banlieue"
                 }
             },
+
+		"addresse_b": {
+                "label": "Adresse",
+                "placeholders": {
+                    "city": "Ville",
+                    "conscriptionnumber": "123",
+                    "country": "Pays",
+                    "district": "District",
+                    "hamlet": "Hameau",
+                    "housename": "Nom de la maison",
+                    "housenumber": "123",
+                    "place": "Place",
+                    "postcode": "Code postal",
+                    "province": "Province",
+                    "state": "État",
+                    "street": "Rue",
+                    "subdistrict": "Sous-district",
+                    "suburb": "Banlieue"
+                }
+            },
             "admin_level": {
                 "label": "Niveau administratif"
             },
@@ -1232,6 +1252,126 @@
         }
 
                  },
+		"door_automatic": {
+                "label": "Porte automatique",
+                 "options": {
+             "no_glass":"Pas de porte de vitrée",
+	"standard_with_2_strips":"Porte de vitrée avec les 2 bandes de 5 cm de largeur",
+	"strip_160":"Porte de vitrée avec une seule bande à h=160cm",
+	"strip_110":"Porte de vitrée avec une seule bande à h=110cm",
+	"no_strip":"Porte de vitrée avec aucune  bande"
+        }
+
+                 },
+
+		"door_handle": {
+                "label": "Poignée de porte",
+                 "options": {
+            	 	"operate":"Poignée à actionner",
+			"round":"Poignée à actionner ronde",
+			"fix":"Poignée fixe à pousser/tirer",
+			"no":"Absence de poignée"
+        }
+
+                 },
+
+		"entrance": {
+                "label": "Type d'entrée",
+                 "options": {
+            	 	"main":"principale",
+		"secondary":"secondaire",
+		"reserved":"réservée",
+		"delivery":"livraison"
+        }
+
+                 },
+
+		"entrancewidth_conformity": {
+                "label": "Confomité de largeur de porte",
+                 "options": {
+            	 	"yes":"oui",
+		"no":"non"
+        }
+
+                 },
+
+		"entrancewidth_obstacle": {
+                "label": "Obstacle derrière porte",
+                 "options": {
+            	 	"yes":"oui",
+		"no":"non"
+        }
+
+                 },
+
+		"opening": {
+                	"label": "Type d'ouverture",
+                 	"options": {
+            	 		"opened":"Ouverture sans bouton",
+				"opened_button":"Ouverture via un bouton",
+				"closed_intercom":"Fermée accès via interphone ",
+				"closed_with_card":"Fermée accès via carte ou badge",
+				"closed":"Fermée accès autre"
+
+        }
+
+                 },
+
+		"operator": {
+                	"label": "Gestionnaire"
+                 },
+
+		"ramp_wheelchair": {
+                "label": "Présence de rampe",
+                 "options": {
+            	 	"yes":"oui",
+			"limited":"limitée",
+			"no":"non"
+        }
+
+                 },
+
+		"step_count": {
+                "label": "Nombre de marche"
+
+                 },
+
+	"threshold_wheelchair": {
+                "label": "Présence de palier de repos",
+                 "options": {
+            	 	"yes":"oui",
+			"no":"non"
+        }
+
+                 },
+
+	"high_step": {
+                "label": "Hauteur de marche (en cm)"
+
+                 },
+
+	"ramp_bearing": {
+                "label": "Palier de repos",
+                 "options": {
+            	 	"yes":"oui",
+			"no_need":"inutile",
+			"no":"non"
+        }
+
+                 },
+
+	"node_bat_sens_ouverture": {
+                "label": "Sens ouverture de porte",
+                 "options": {
+            	 	"push":"Pousser",
+			"pull":"Tirer",
+			"clockwise":"Gauche vers droite (Sens horaire)",
+			"anticlockwise":"Droite vers gauche (Sens inverse horaire) ",
+			"two_wings":"2 battants (Gauche et droite)"
+        }
+
+                 },
+
 
   "position_wegoto": {
                 "label": "Position obstacle",

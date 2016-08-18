@@ -1,0 +1,14 @@
+{
+    "key": "fr.wegoto.entrancewidth.conformity",
+    "type": "combo",
+    "label": "Entrance width conformity",
+    "strings": {
+        "options": {
+             "yes":"yes",
+"no":"no"
+            
+
+          
+        }
+    }
+}

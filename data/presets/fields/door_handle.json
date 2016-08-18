@@ -1,0 +1,13 @@
+{
+    "key": "fr.wegoto.door.handle",
+    "type": "combo",
+    "label": "Door handle",
+    "strings": {
+        "options": {
+"operate":"operate",
+"round":"round",
+"fix":"fix",
+"no":"no"
+        }
+    }
+}

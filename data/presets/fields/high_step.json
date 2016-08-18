@@ -1,0 +1,7 @@
+{
+    "key": "high_step",
+    "type": "number",
+    "label": "High step (Meters)",
+    "placeholder":"En cm"
+}
+

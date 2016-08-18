@@ -1,0 +1,17 @@
+{
+    "key": "fr.wegoto.entrance",
+    "type": "combo",
+    "label": "Door entrance",
+    "strings": {
+        "options": {
+             	"main":"main",
+		"secondary":"secondary",
+		"reserved":"reserved",
+		"delivery":"delivery"
+
+            
+
+          
+        }
+    }
+}

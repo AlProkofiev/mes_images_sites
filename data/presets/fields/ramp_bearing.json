@@ -1,0 +1,12 @@
+{
+    "key": "ramp:bearing",
+    "type": "combo",
+    "label": "Palier de repos",
+    "strings": {
+        "options": {
+             "yes":"yes",
+"no":"no",
+"no_need":"no_need"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "key": "ramp:wheelchair",
+    "type": "combo",
+    "label": "Ramp for wheelchair",
+    "strings": {
+        "options": {
+             "yes":"yes",
+		"no":"no"
+        }
+    }
+}

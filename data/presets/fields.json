@@ -15,6 +15,26 @@
             }
         }
     },
+    "addresse_b": {
+        "type": "address",
+        "keys": [
+            "addr:city",
+            "addr:postcode",
+            "addr:housenumber",
+            "addr:street"
+        ],
+        "icon": "address",
+        "universal": true,
+        "label": "Address",
+        "strings": {
+            "placeholders": {
+                "city": "City",
+                "postcode": "Postcode",
+                "housenumber": "housenumber",
+                "street": "street"
+            }
+        }
+    },
     "bicycle_parking": {
         "key": "bicycle_parking",
         "type": "combo",
@@ -45,6 +65,33 @@
         "type": "combo",
         "label": "Type"
     },
+    "door_automatic": {
+        "key": "fr.wegoto.door.automatic",
+        "type": "combo",
+        "label": "Door Automatic",
+        "strings": {
+            "options": {
+                "no_glass": "no_glass",
+                "standard_with_2_strips": "standard_with_2_strips",
+                "strip_160": "strip_160",
+                "strip_110": "strip_110",
+                "no_strip": "no_strip"
+            }
+        }
+    },
+    "door_handle": {
+        "key": "fr.wegoto.door.handle",
+        "type": "combo",
+        "label": "Door handle",
+        "strings": {
+            "options": {
+                "operate": "operate",
+                "round": "round",
+                "fix": "fix",
+                "no": "no"
+            }
+        }
+    },
     "door_typology": {
         "key": "fr.wegoto.door.typology",
         "type": "combo",
@@ -64,6 +111,41 @@
         "icon": "elevation",
         "universal": true,
         "label": "Elevation"
+    },
+    "entrance": {
+        "key": "fr.wegoto.entrance",
+        "type": "combo",
+        "label": "Door entrance",
+        "strings": {
+            "options": {
+                "main": "main",
+                "secondary": "secondary",
+                "reserved": "reserved",
+                "delivery": "delivery"
+            }
+        }
+    },
+    "entrancewidth_conformity": {
+        "key": "fr.wegoto.entrancewidth.conformity",
+        "type": "combo",
+        "label": "Entrance width conformity",
+        "strings": {
+            "options": {
+                "yes": "yes",
+                "no": "no"
+            }
+        }
+    },
+    "entrancewidth_obstacle": {
+        "key": "fr.wegoto.entrancewidth.obstacle",
+        "type": "combo",
+        "label": "Door obstacle",
+        "strings": {
+            "options": {
+                "yes": "yes",
+                "no": "no"
+            }
+        }
     },
     "forme_trottoir_wegoto": {
         "key": "crossing:shape",
@@ -88,6 +170,12 @@
         "key": "breakpoint:high",
         "type": "number",
         "label": "High",
+        "placeholder": "En cm"
+    },
+    "high_step": {
+        "key": "high_step",
+        "type": "number",
+        "label": "High step (Meters)",
         "placeholder": "En cm"
     },
     "highway": {
@@ -275,6 +363,20 @@
         "label": "Name",
         "placeholder": "Street"
     },
+    "node_bat_sens_ouverture": {
+        "key": "node_bat_sens_ouverture",
+        "type": "combo",
+        "label": "Door opening direction",
+        "strings": {
+            "options": {
+                "push": "push",
+                "pull": "pull",
+                "clockwise": "clockwise",
+                "anticlockwise": "anticlockwise",
+                "two_wings": "two_wings"
+            }
+        }
+    },
     "note": {
         "key": "note",
         "type": "textarea",
@@ -293,6 +395,25 @@
                 "yes": "Yes"
             }
         }
+    },
+    "opening": {
+        "key": "fr.wegoto.opening",
+        "type": "combo",
+        "label": "Opening door",
+        "strings": {
+            "options": {
+                "opened": "opened",
+                "opened_button": "opened_button",
+                "closed_intercom": "closed_intercom",
+                "closed_with_card": "closed_with_card",
+                "closed": "closed"
+            }
+        }
+    },
+    "operator": {
+        "key": "operator",
+        "type": "combo",
+        "label": "Operator"
     },
     "parking": {
         "key": "parking",
@@ -363,6 +484,29 @@
         "key": "railway",
         "type": "typeCombo",
         "label": "Type"
+    },
+    "ramp_bearing": {
+        "key": "ramp:bearing",
+        "type": "combo",
+        "label": "Palier de repos",
+        "strings": {
+            "options": {
+                "yes": "yes",
+                "no": "no",
+                "no_need": "no_need"
+            }
+        }
+    },
+    "ramp_wheelchair": {
+        "key": "ramp:wheelchair",
+        "type": "combo",
+        "label": "Ramp for wheelchair",
+        "strings": {
+            "options": {
+                "yes": "yes",
+                "no": "no"
+            }
+        }
     },
     "ref": {
         "key": "ref",
@@ -459,6 +603,11 @@
             }
         }
     },
+    "step_count": {
+        "key": "step_count",
+        "type": "number",
+        "label": "Step count"
+    },
     "surface": {
         "key": "surface",
         "type": "combo",
@@ -497,6 +646,17 @@
                 "yes:r": "Etat 1",
                 "limited:1:r": "Etat 1",
                 "limited:2:r": "Etat 1"
+            }
+        }
+    },
+    "threshold_wheelchair": {
+        "key": "threshold:wheelchair",
+        "type": "combo",
+        "label": "Threshold wheelchair",
+        "strings": {
+            "options": {
+                "yes": "yes",
+                "no": "no"
             }
         }
     },

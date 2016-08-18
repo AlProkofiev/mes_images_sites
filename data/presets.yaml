@@ -16,6 +16,14 @@ en:
         placeholders:
           city: City
           postcode: Postcode
+      addresse_b:
+        # 'addr:city=*, addr:postcode=*, addr:housenumber=*, addr:street=*'
+        label: Address
+        placeholders:
+          city: City
+          housenumber: housenumber
+          postcode: Postcode
+          street: street
       bicycle_parking:
         # 'bicycle_parking=*'
         label: Type
@@ -34,6 +42,32 @@ en:
       crossing:
         # 'crossing=*'
         label: Type
+      door_automatic:
+        # 'fr.wegoto.door.automatic=*'
+        label: Door Automatic
+        options:
+          # fr.wegoto.door.automatic=no_glass
+          no_glass: no_glass
+          # fr.wegoto.door.automatic=no_strip
+          no_strip: no_strip
+          # fr.wegoto.door.automatic=standard_with_2_strips
+          standard_with_2_strips: standard_with_2_strips
+          # fr.wegoto.door.automatic=strip_110
+          strip_110: strip_110
+          # fr.wegoto.door.automatic=strip_160
+          strip_160: strip_160
+      door_handle:
+        # 'fr.wegoto.door.handle=*'
+        label: Door handle
+        options:
+          # fr.wegoto.door.handle=fix
+          fix: fix
+          # fr.wegoto.door.handle=no
+          'no': 'no'
+          # fr.wegoto.door.handle=operate
+          operate: operate
+          # fr.wegoto.door.handle=round
+          round: round
       door_typology:
         # 'fr.wegoto.door.typology=*'
         label: Door Typology
@@ -49,6 +83,34 @@ en:
       elevation:
         # 'ele=*'
         label: Elevation
+      entrance:
+        # 'fr.wegoto.entrance=*'
+        label: Door entrance
+        options:
+          # fr.wegoto.entrance=delivery
+          delivery: delivery
+          # fr.wegoto.entrance=main
+          main: main
+          # fr.wegoto.entrance=reserved
+          reserved: reserved
+          # fr.wegoto.entrance=secondary
+          secondary: secondary
+      entrancewidth_conformity:
+        # 'fr.wegoto.entrancewidth.conformity=*'
+        label: Entrance width conformity
+        options:
+          # fr.wegoto.entrancewidth.conformity=no
+          'no': 'no'
+          # fr.wegoto.entrancewidth.conformity=yes
+          'yes': 'yes'
+      entrancewidth_obstacle:
+        # 'fr.wegoto.entrancewidth.obstacle=*'
+        label: Door obstacle
+        options:
+          # fr.wegoto.entrancewidth.obstacle=no
+          'no': 'no'
+          # fr.wegoto.entrancewidth.obstacle=yes
+          'yes': 'yes'
       forme_trottoir_wegoto:
         # 'crossing:shape=*'
         label: Crossing shape
@@ -70,6 +132,11 @@ en:
         # 'breakpoint:high=*'
         label: High
         # high_rupture field placeholder
+        placeholder: En cm
+      high_step:
+        # 'high_step=*'
+        label: High step (Meters)
+        # high_step field placeholder
         placeholder: En cm
       highway:
         # 'highway=*'
@@ -252,6 +319,20 @@ en:
         label: Name
         # name field placeholder
         placeholder: Street
+      node_bat_sens_ouverture:
+        # 'node_bat_sens_ouverture=*'
+        label: Door opening direction
+        options:
+          # node_bat_sens_ouverture=anticlockwise
+          anticlockwise: anticlockwise
+          # node_bat_sens_ouverture=clockwise
+          clockwise: clockwise
+          # node_bat_sens_ouverture=pull
+          pull: pull
+          # node_bat_sens_ouverture=push
+          push: push
+          # node_bat_sens_ouverture=two_wings
+          two_wings: two_wings
       note:
         # 'note=*'
         label: Note
@@ -265,6 +346,23 @@ en:
           'yes': 'Yes'
         # obstacle_wegoto field placeholder
         placeholder: "Pas d'obstacle, rail,  ..."
+      opening:
+        # 'fr.wegoto.opening=*'
+        label: Opening door
+        options:
+          # fr.wegoto.opening=closed
+          closed: closed
+          # fr.wegoto.opening=closed_intercom
+          closed_intercom: closed_intercom
+          # fr.wegoto.opening=closed_with_card
+          closed_with_card: closed_with_card
+          # fr.wegoto.opening=opened
+          opened: opened
+          # fr.wegoto.opening=opened_button
+          opened_button: opened_button
+      operator:
+        # 'operator=*'
+        label: Operator
       parking:
         # 'parking=*'
         label: Type
@@ -328,6 +426,24 @@ en:
       railway:
         # 'railway=*'
         label: Type
+      ramp_bearing:
+        # 'ramp:bearing=*'
+        label: Palier de repos
+        options:
+          # 'ramp:bearing=no'
+          'no': 'no'
+          # 'ramp:bearing=no_need'
+          no_need: no_need
+          # 'ramp:bearing=yes'
+          'yes': 'yes'
+      ramp_wheelchair:
+        # 'ramp:wheelchair=*'
+        label: Ramp for wheelchair
+        options:
+          # 'ramp:wheelchair=no'
+          'no': 'no'
+          # 'ramp:wheelchair=yes'
+          'yes': 'yes'
       ref:
         # 'ref=*'
         label: Reference
@@ -434,6 +550,9 @@ en:
           intermediate: Intermediate
         # smoothness_wegoto field placeholder
         placeholder: 'Excellent, intermediate, Bad...'
+      step_count:
+        # 'step_count=*'
+        label: Step count
       surface:
         # 'surface=*'
         label: Surface
@@ -481,6 +600,14 @@ en:
           'yes:r': Etat 1
         # tactile_paving field placeholder
         placeholder: BEV
+      threshold_wheelchair:
+        # 'threshold:wheelchair=*'
+        label: Threshold wheelchair
+        options:
+          # 'threshold:wheelchair=no'
+          'no': 'no'
+          # 'threshold:wheelchair=yes'
+          'yes': 'yes'
       traffic_signals:
         # 'traffic_signals=*'
         label: Type

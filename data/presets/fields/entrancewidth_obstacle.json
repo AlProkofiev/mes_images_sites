@@ -1,0 +1,12 @@
+{
+    "key": "fr.wegoto.entrancewidth.obstacle",
+    "type": "combo",
+    "label": "Door obstacle",
+    "strings": {
+        "options": {
+             "yes":"yes",
+"no":"no"
+          
+        }
+    }
+}

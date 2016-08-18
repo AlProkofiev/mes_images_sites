@@ -1,0 +1,15 @@
+{
+    "key": "fr.wegoto.door.automatic",
+    "type": "combo",
+    "label": "Door Automatic",
+    "strings": {
+        "options": {
+"no_glass":"no_glass",
+"standard_with_2_strips":"standard_with_2_strips",
+"strip_160":"strip_160",
+"strip_110":"strip_110",
+"no_strip":"no_strip"
+
+        }
+    }
+}

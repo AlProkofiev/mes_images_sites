@@ -1,0 +1,23 @@
+{
+    "type": "address",
+    "keys": [
+      
+        "addr:city",
+        "addr:postcode",
+	"addr:housenumber",
+	"addr:street"
+        
+    ],
+    
+    "icon": "address",
+    "universal": true,
+    "label": "Address",
+    "strings": {
+        "placeholders": {
+          "city": "City",
+          "postcode": "Postcode",
+	  "housenumber":"housenumber",
+         "street":"street"
+        }
+    }
+}

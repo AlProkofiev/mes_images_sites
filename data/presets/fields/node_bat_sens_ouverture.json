@@ -1,0 +1,18 @@
+{
+    "key": "node_bat_sens_ouverture",
+    "type": "combo",
+    "label": "Door opening direction",
+    "strings": {
+        "options": {
+             	"push":"push",
+		"pull":"pull",
+		"clockwise":"clockwise",
+		"anticlockwise":"anticlockwise",
+		"two_wings":"two_wings"
+
+            
+
+          
+        }
+    }
+}

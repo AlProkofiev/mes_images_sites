@@ -634,6 +634,15 @@
                     "postcode": "Postcode"
                 }
             },
+            "addresse_b": {
+                "label": "Address",
+                "placeholders": {
+                    "city": "City",
+                    "postcode": "Postcode",
+                    "housenumber": "housenumber",
+                    "street": "street"
+                }
+            },
             "bicycle_parking": {
                 "label": "Type"
             },
@@ -652,6 +661,25 @@
             "crossing": {
                 "label": "Type"
             },
+            "door_automatic": {
+                "label": "Door Automatic",
+                "options": {
+                    "no_glass": "no_glass",
+                    "standard_with_2_strips": "standard_with_2_strips",
+                    "strip_160": "strip_160",
+                    "strip_110": "strip_110",
+                    "no_strip": "no_strip"
+                }
+            },
+            "door_handle": {
+                "label": "Door handle",
+                "options": {
+                    "operate": "operate",
+                    "round": "round",
+                    "fix": "fix",
+                    "no": "no"
+                }
+            },
             "door_typology": {
                 "label": "Door Typology",
                 "options": {
@@ -663,6 +691,29 @@
             },
             "elevation": {
                 "label": "Elevation"
+            },
+            "entrance": {
+                "label": "Door entrance",
+                "options": {
+                    "main": "main",
+                    "secondary": "secondary",
+                    "reserved": "reserved",
+                    "delivery": "delivery"
+                }
+            },
+            "entrancewidth_conformity": {
+                "label": "Entrance width conformity",
+                "options": {
+                    "yes": "yes",
+                    "no": "no"
+                }
+            },
+            "entrancewidth_obstacle": {
+                "label": "Door obstacle",
+                "options": {
+                    "yes": "yes",
+                    "no": "no"
+                }
             },
             "forme_trottoir_wegoto": {
                 "label": "Crossing shape",
@@ -679,6 +730,10 @@
             },
             "high_rupture": {
                 "label": "High",
+                "placeholder": "En cm"
+            },
+            "high_step": {
+                "label": "High step (Meters)",
                 "placeholder": "En cm"
             },
             "highway": {
@@ -812,6 +867,16 @@
                 "label": "Name",
                 "placeholder": "Street"
             },
+            "node_bat_sens_ouverture": {
+                "label": "Door opening direction",
+                "options": {
+                    "push": "push",
+                    "pull": "pull",
+                    "clockwise": "clockwise",
+                    "anticlockwise": "anticlockwise",
+                    "two_wings": "two_wings"
+                }
+            },
             "note": {
                 "label": "Note"
             },
@@ -822,6 +887,19 @@
                     "no": "No",
                     "yes": "Yes"
                 }
+            },
+            "opening": {
+                "label": "Opening door",
+                "options": {
+                    "opened": "opened",
+                    "opened_button": "opened_button",
+                    "closed_intercom": "closed_intercom",
+                    "closed_with_card": "closed_with_card",
+                    "closed": "closed"
+                }
+            },
+            "operator": {
+                "label": "Operator"
             },
             "parking": {
                 "label": "Type",
@@ -870,6 +948,21 @@
             },
             "railway": {
                 "label": "Type"
+            },
+            "ramp_bearing": {
+                "label": "Palier de repos",
+                "options": {
+                    "yes": "yes",
+                    "no": "no",
+                    "no_need": "no_need"
+                }
+            },
+            "ramp_wheelchair": {
+                "label": "Ramp for wheelchair",
+                "options": {
+                    "yes": "yes",
+                    "no": "no"
+                }
             },
             "ref": {
                 "label": "Reference"
@@ -942,6 +1035,9 @@
                     "bad": "Bad"
                 }
             },
+            "step_count": {
+                "label": "Step count"
+            },
             "surface": {
                 "label": "Surface"
             },
@@ -971,6 +1067,13 @@
                     "yes:r": "Etat 1",
                     "limited:1:r": "Etat 1",
                     "limited:2:r": "Etat 1"
+                }
+            },
+            "threshold_wheelchair": {
+                "label": "Threshold wheelchair",
+                "options": {
+                    "yes": "yes",
+                    "no": "no"
                 }
             },
             "traffic_signals": {
