@@ -11,7 +11,7 @@
     
     "icon": "address",
     "universal": true,
-    "label": "Address",
+    "label": "Adresse",
     "strings": {
         "placeholders": {
           "city": "City",

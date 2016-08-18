@@ -635,7 +635,7 @@
                 }
             },
             "addresse_b": {
-                "label": "Address",
+                "label": "Adresse",
                 "placeholders": {
                     "city": "City",
                     "postcode": "Postcode",

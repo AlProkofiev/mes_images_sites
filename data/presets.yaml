@@ -18,7 +18,7 @@ en:
           postcode: Postcode
       addresse_b:
         # 'addr:city=*, addr:postcode=*, addr:housenumber=*, addr:street=*'
-        label: Address
+        label: Adresse
         placeholders:
           city: City
           housenumber: housenumber

@@ -865,7 +865,8 @@
     "poi/building": {
         "icon": "building",
         "geometry": [
-            "point"
+            "point",
+            "vertex"
         ],
         "fields": [
             "door_typology",

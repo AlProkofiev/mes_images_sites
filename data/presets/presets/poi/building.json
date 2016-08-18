@@ -1,7 +1,8 @@
 {
     "icon": "building",
     "geometry": [
-        "point"
+        "point",
+	"vertex"
        
     ],
          "fields": [
@@ -27,7 +28,7 @@
         "bâtiment"
     ],
     "tags": {
-        "building": "yes"
+        "building":"yes"
     },
     "name": "Building"
 }
