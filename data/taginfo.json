@@ -1,0 +1,275 @@
+{
+    "data_format": 1,
+    "data_url": "https://raw.githubusercontent.com/openstreetmap/iD/master/data/taginfo.json",
+    "project": {
+        "name": "iD Editor",
+        "description": "Online editor for OSM data.",
+        "project_url": "https://github.com/openstreetmap/iD",
+        "doc_url": "https://github.com/openstreetmap/iD/blob/master/data/presets/README.md",
+        "icon_url": "https://raw.githubusercontent.com/openstreetmap/iD/master/dist/img/logo.png",
+        "keywords": [
+            "editor"
+        ]
+    },
+    "tags": [
+        {
+            "key": "addr:housenumber"
+        },
+        {
+            "key": "footway",
+            "value": "other"
+        },
+        {
+            "key": "highway",
+            "value": "road"
+        },
+        {
+            "key": "highway",
+            "value": "path"
+        },
+        {
+            "key": "highway",
+            "value": "crossing"
+        },
+        {
+            "key": "highway",
+            "value": "cycleway"
+        },
+        {
+            "key": "island:node",
+            "value": "yes"
+        },
+        {
+            "key": "footway",
+            "value": "island"
+        },
+        {
+            "key": "highway",
+            "value": "pedestrian"
+        },
+        {
+            "key": "crossing:node",
+            "value": "yes"
+        },
+        {
+            "key": "footway",
+            "value": "crossing"
+        },
+        {
+            "key": "footway",
+            "value": "sidewalk"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "atm"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "bench"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "bench_stand"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "bicycle"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "billboard"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "bicycle_park"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "carpool_parking"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "conservatory"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "constrasted_sign"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "cover_stop"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "crack"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "electric_charge"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "electrical_panel"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "fall"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "front_step"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "gardener_box"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "handicap_parking"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "letterbox"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "little_sign"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "masterpiece"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "metal_gate"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "morris_column"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "not_cover_stop"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "overhanging"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "parking_meter"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "post"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "rail"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "road_sign"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "separate_waste"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "street_lamp"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "toilet"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "trash"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "tree"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "atm"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "bicycle"
+        },
+        {
+            "key": "building",
+            "value": "yes"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "bicycle_park"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "carpool_parking"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "cover_stop"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "gardener_box"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "handicap_parking"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "letterbox"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "masterpiece"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "not_cover_stop"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "parking_meter"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "separate_waste"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "toilet"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "no"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "no"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "no"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "yes"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "no"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "yes"
+        }
+    ]
+}
