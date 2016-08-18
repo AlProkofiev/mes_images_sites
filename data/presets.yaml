@@ -835,7 +835,7 @@ en:
         # 'terms: bycicle,Velos'
         terms: "<translate with synonyms or related terms for 'Bicycle', separated by commas>"
       poi/building:
-        # buildings=yes
+        # building=yes
         name: Building
         # 'terms: building,bâtiment'
         terms: "<translate with synonyms or related terms for 'Building', separated by commas>"

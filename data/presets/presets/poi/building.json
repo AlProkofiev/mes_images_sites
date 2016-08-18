@@ -27,7 +27,7 @@
         "bâtiment"
     ],
     "tags": {
-        "buildings": "yes"
+        "building": "yes"
     },
     "name": "Building"
 }
