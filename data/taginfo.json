@@ -60,6 +60,10 @@
             "value": "sidewalk"
         },
         {
+            "key": "highway",
+            "value": "footway"
+        },
+        {
             "key": "obstacle:type",
             "value": "atm"
         },

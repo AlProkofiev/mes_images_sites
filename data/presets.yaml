@@ -677,6 +677,10 @@ en:
         # 'highway=footway, footway=sidewalk'
         name: SideWalk
         terms: "<translate with synonyms or related terms for 'SideWalk', separated by commas>"
+      highway/voie_pietonne_wegoto:
+        # highway=footway
+        name: FootPath
+        terms: "<translate with synonyms or related terms for 'FootPath', separated by commas>"
       line:
         name: Line
         terms: "<translate with synonyms or related terms for 'Line', separated by commas>"

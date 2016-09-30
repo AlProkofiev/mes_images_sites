@@ -2911,6 +2911,7 @@
                 "name": "Trottoir",
                 "terms": "Trottoir"
             },
+	    
             "ford": {
                 "name": "Gué",
                 "terms": "Gué"
@@ -3007,6 +3008,10 @@
              "highway/trottoir_wegoto": {
                 "name": "Trottoir",
                 "terms": "trottoir, Voirie"
+            },
+	     "highway/voie_pietonne_wegoto": {
+                "name": "Voie piétonne",
+                "terms": "Voie piétonne, Voirie"
             },
             "highway/motorway_junction": {
                 "name": "Bretelle d'autoroute / Sortie",

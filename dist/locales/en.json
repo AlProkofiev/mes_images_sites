@@ -1145,6 +1145,10 @@
                 "name": "SideWalk",
                 "terms": ""
             },
+            "highway/voie_pietonne_wegoto": {
+                "name": "FootPath",
+                "terms": ""
+            },
             "line": {
                 "name": "Line",
                 "terms": ""

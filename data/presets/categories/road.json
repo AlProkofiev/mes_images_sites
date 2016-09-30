@@ -5,6 +5,7 @@
     "members": [
         "highway/trottoir_wegoto",
         "highway/chemin_wegoto",
+	"highway/voie_pietonne_wegoto",
         "highway/chausse_wegoto",
         "highway/pietonne_wegoto",
         "highway/cyclable_wegoto",
