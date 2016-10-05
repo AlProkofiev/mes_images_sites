@@ -884,7 +884,7 @@ path.casing.tag-footway-crossing.tag-unpaved,
 path.casing.tag-footway-island.tag-unpaved,
 path.casing.tag-highway-cycleway.tag-unpaved,
 path.casing.tag-highway-bridleway.tag-unpaved {
-    stroke: #fff;
+    stroke: #d809e2;
     stroke-linecap: round;
     stroke-dasharray: none;
 }
