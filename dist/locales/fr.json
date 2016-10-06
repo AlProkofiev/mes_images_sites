@@ -358,6 +358,20 @@
             "description": "Voies de circulation",
             "tooltip": "Voies, Rues, etc."
         },
+	"idloi2": {
+            "description": "Non conformité",
+            "tooltip": "Non conformité"
+        },
+	 "idloi": {
+                "label": "Conformité",
+		"tooltip": "Conformité",
+                "options":{
+                    "0":"Non renseigné",
+                    "1": "Conforme",
+                    "2": "Non conforme",
+                    "3": "A vérifier"
+                }
+            },
         "service_roads": {
             "description": "Route d'accès",
             "tooltip": "Voies de service, Allées de stationnement, Chemins, etc."

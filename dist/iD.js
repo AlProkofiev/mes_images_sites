@@ -30439,11 +30439,11 @@ iD.Features = function(context) {
     
 
     var idloi = {
-	'1':true,
+	'1':true
     };
 
     var idloi2 = {
-	'2':true,
+	'2':true
     };
 
     

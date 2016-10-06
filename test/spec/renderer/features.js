@@ -107,6 +107,10 @@ describe('iD.Features', function() {
             iD.Way({id: 'unclassified', tags: {highway: 'unclassified'}, version: 1}),
             iD.Way({id: 'living_street', tags: {highway: 'living_street'}, version: 1}),
 
+	    // Conformité
+            iD.Way({id: '1', tags: {idloi: '1'}, version: 1}),
+            iD.Way({id: '2', tags: {idloi: '2'}, version: 1}),
+
             // Service Roads
             iD.Way({id: 'service', tags: {highway: 'service'}, version: 1}),
             iD.Way({id: 'road', tags: {highway: 'road'}, version: 1}),
