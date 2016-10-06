@@ -224,6 +224,12 @@ g.vertex .stroke {
     fill: white;
 }
 
+g.midpoint.tag-highway.tag-idloi-1 .stroke{
+    stroke: #e56809;
+    stroke-width: 1;
+    fill: white;
+}
+
 g.vertex.shared .stroke {
     fill: #aaa;
 }
@@ -1141,16 +1147,16 @@ path.stroke.tag-footway-sidewalk {
 path.stroke.tag-highway-footway {
     stroke: #ae8681;
 }
-path.stroke.tag-idloi-0{
+path.stroke.tag-highway.tag-idloi-0{
     stroke: #fff;	
 }
-path.stroke.tag-idloi-1{
+path.stroke.tag-highway.tag-idloi-1{
     stroke: #4f7b96;	
 }
-path.stroke.tag-idloi-2{
+path.stroke.tag-highway.tag-idloi-2{
     stroke: #bf0f0f;	
 }
-path.stroke.tag-idloi-3{
+path.stroke.tag-highway.tag-idloi-3{
     stroke: #e56809;	
 }
 /*couleur ?*/
