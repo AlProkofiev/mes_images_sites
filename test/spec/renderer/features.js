@@ -13,9 +13,10 @@ describe('iD.Features', function() {
         it('returns feature keys', function() {
             var keys = features.keys();
             expect(keys).to.include(
-                'points', 'traffic_roads', 'service_roads', 'paths',
+                /*'points', 'traffic_roads', 'service_roads', 'paths',
                 'buildings', 'landuse', 'boundaries', 'water', 'rail',
-                'power', 'past_future', 'others'
+                'power', 'past_future', 'others'*/
+		'idloi0','idloi1','idloi2','idloi3'
             );
         });
     });
@@ -237,6 +238,78 @@ describe('iD.Features', function() {
 
             doMatch([
                 'motorway', 'motorway_link', 'trunk', 'trunk_link',
+                'primary', 'primary_link', 'secondary', 'secondary_link',
+                'tertiary', 'tertiary_link', 'residential', 'living_street',
+                'unclassified', 'inner3'
+            ]);
+
+            dontMatch([
+                'point_bar', 'service', 'road', 'track', 'path', 'building_yes',
+                'forest', 'boundary', 'water', 'railway', 'power_line',
+                'motorway_construction', 'fence'
+            ]);
+        });
+
+	it("matches id loi0", function () {
+            features.disable('idloi0');
+            features.gatherStats(all, graph, dimensions);
+
+            doMatch([
+                '0', 'motorway_link', 'trunk', 'trunk_link',
+                'primary', 'primary_link', 'secondary', 'secondary_link',
+                'tertiary', 'tertiary_link', 'residential', 'living_street',
+                'unclassified', 'inner3'
+            ]);
+
+            dontMatch([
+                'point_bar', 'service', 'road', 'track', 'path', 'building_yes',
+                'forest', 'boundary', 'water', 'railway', 'power_line',
+                'motorway_construction', 'fence'
+            ]);
+        });
+
+it("matches id loi1", function () {
+            features.disable('idloi1');
+            features.gatherStats(all, graph, dimensions);
+
+            doMatch([
+                '1', 'motorway_link', 'trunk', 'trunk_link',
+                'primary', 'primary_link', 'secondary', 'secondary_link',
+                'tertiary', 'tertiary_link', 'residential', 'living_street',
+                'unclassified', 'inner3'
+            ]);
+
+            dontMatch([
+                'point_bar', 'service', 'road', 'track', 'path', 'building_yes',
+                'forest', 'boundary', 'water', 'railway', 'power_line',
+                'motorway_construction', 'fence'
+            ]);
+        });
+
+it("matches id loi2", function () {
+            features.disable('idloi2');
+            features.gatherStats(all, graph, dimensions);
+
+            doMatch([
+                '2', 'motorway_link', 'trunk', 'trunk_link',
+                'primary', 'primary_link', 'secondary', 'secondary_link',
+                'tertiary', 'tertiary_link', 'residential', 'living_street',
+                'unclassified', 'inner3'
+            ]);
+
+            dontMatch([
+                'point_bar', 'service', 'road', 'track', 'path', 'building_yes',
+                'forest', 'boundary', 'water', 'railway', 'power_line',
+                'motorway_construction', 'fence'
+            ]);
+        });
+
+it("matches id loi3", function () {
+            features.disable('idloi3');
+            features.gatherStats(all, graph, dimensions);
+
+            doMatch([
+                '3', 'motorway_link', 'trunk', 'trunk_link',
                 'primary', 'primary_link', 'secondary', 'secondary_link',
                 'tertiary', 'tertiary_link', 'residential', 'living_street',
                 'unclassified', 'inner3'

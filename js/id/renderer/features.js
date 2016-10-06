@@ -15,6 +15,22 @@ iD.Features = function(context) {
         'living_street': true
     };
 
+    var id_loi0 = {
+	'0':true,
+    };
+
+    var id_loi1 = {
+	'1':true,
+    };
+
+    var id_loi2 = {
+	'2':true,
+    };
+
+    var id_loi3 = {
+	'3':true,
+    };	
+
     var service_roads = {
         'service': true,
         'road': true,
@@ -78,6 +94,22 @@ iD.Features = function(context) {
 
     defineFeature('traffic_roads', function isTrafficRoad(entity) {
         return traffic_roads[entity.tags.highway];
+    });
+
+    defineFeature('id_loi0', function isidloi0(entity) {
+        return id_loi0[entity.tags.idloi];
+    });
+
+    defineFeature('id_loi3', function isidloi3(entity) {
+        return id_loi3[entity.tags.idloi];
+    });
+
+    defineFeature('id_loi1', function isidloi1(entity) {
+        return id_loi1[entity.tags.idloi];
+    });
+
+    defineFeature('id_loi2', function isidloi2(entity) {
+        return id_loi2[entity.tags.idloi];
     });
 
     defineFeature('service_roads', function isServiceRoad(entity) {

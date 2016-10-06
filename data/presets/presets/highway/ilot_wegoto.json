@@ -6,7 +6,8 @@
        "width",
        "elevation",
        "surface_wegoto",
-       "smoothness_wegoto"
+       "smoothness_wegoto",
+       "idloi"
      
     ],
     "geometry": [

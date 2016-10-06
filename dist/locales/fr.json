@@ -1178,9 +1178,19 @@
                     "no": "Pas de séparation"
                 }
             },
+	    "idloi": {
+                "label": "Conformité",
+                "options":{
+                    "0":"Non renseigné",
+                    "1": "Conforme",
+                    "2": "Non conforme",
+                    "3": "A vérifier"
+                }
+            },
             "incline_wegoto": {
                 "label": "Pente en % "
             },
+		
             "line_left": {
                 "label": "Séparation gauche",
                  "options":{

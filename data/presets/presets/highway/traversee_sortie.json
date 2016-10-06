@@ -16,7 +16,8 @@
         "traffic_signals_wegoto2",
         "incline_wegoto",
         "kerb",
-        "hauteur_trottoir_wegoto"    
+        "hauteur_trottoir_wegoto",
+	"idloi"    
 
     ],
     "geometry": [

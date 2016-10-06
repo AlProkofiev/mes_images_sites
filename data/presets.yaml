@@ -140,6 +140,18 @@ en:
       highway:
         # 'highway=*'
         label: Type
+      idloi:
+        # 'idloi=*'
+        label: Conformité
+        options:
+          # idloi=0
+          '0': Not specified
+          # idloi=1
+          '1': Standard
+          # idloi=2
+          '2': Improper
+          # idloi=3
+          '3': To validate
       incline:
         # 'incline=*'
         label: Incline

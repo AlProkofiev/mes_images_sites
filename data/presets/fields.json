@@ -177,6 +177,19 @@
         "type": "typeCombo",
         "label": "Type"
     },
+    "idloi": {
+        "key": "idloi",
+        "type": "combo",
+        "label": "Conformité",
+        "strings": {
+            "options": {
+                "0": "Not specified",
+                "1": "Standard",
+                "2": "Improper",
+                "3": "To validate"
+            }
+        }
+    },
     "incline": {
         "key": "incline",
         "type": "combo",

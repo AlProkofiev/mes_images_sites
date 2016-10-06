@@ -739,6 +739,15 @@
             "highway": {
                 "label": "Type"
             },
+            "idloi": {
+                "label": "Conformité",
+                "options": {
+                    "0": "Not specified",
+                    "1": "Standard",
+                    "2": "Improper",
+                    "3": "To validate"
+                }
+            },
             "incline": {
                 "label": "Incline"
             },

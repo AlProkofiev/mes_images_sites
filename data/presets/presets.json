@@ -27,7 +27,8 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface_wegoto"
+            "surface_wegoto",
+            "idloi"
         ],
         "geometry": [
             "line"
@@ -54,7 +55,8 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface_wegoto"
+            "surface_wegoto",
+            "idloi"
         ],
         "geometry": [
             "line"
@@ -81,7 +83,8 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface_wegoto"
+            "surface_wegoto",
+            "idloi"
         ],
         "geometry": [
             "line"
@@ -168,7 +171,8 @@
             "width",
             "elevation",
             "surface_wegoto",
-            "smoothness_wegoto"
+            "smoothness_wegoto",
+            "idloi"
         ],
         "geometry": [
             "line"
@@ -195,7 +199,8 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface_wegoto"
+            "surface_wegoto",
+            "idloi"
         ],
         "geometry": [
             "line",
@@ -228,7 +233,8 @@
             "traffic_signals_wegoto2",
             "incline_wegoto",
             "kerb",
-            "hauteur_trottoir_wegoto"
+            "hauteur_trottoir_wegoto",
+            "idloi"
         ],
         "geometry": [
             "vertex"
@@ -249,7 +255,8 @@
             "width",
             "elevation",
             "surface_wegoto",
-            "smoothness_wegoto"
+            "smoothness_wegoto",
+            "idloi"
         ],
         "geometry": [
             "line"
@@ -275,7 +282,8 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface_wegoto"
+            "surface_wegoto",
+            "idloi"
         ],
         "geometry": [
             "line"
@@ -304,7 +312,8 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface_wegoto"
+            "surface_wegoto",
+            "idloi"
         ],
         "geometry": [
             "line"
