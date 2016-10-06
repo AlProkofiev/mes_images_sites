@@ -30513,9 +30513,9 @@ iD.Features = function(context) {
         return geometry === 'point';
     }, 200);
 
-    /*defineFeature('traffic_roads', function isTrafficRoad(entity) {
+    defineFeature('traffic_roads', function isTrafficRoad(entity) {
         return traffic_roads[entity.tags.highway];
-    });*/
+    });
 
     defineFeature('idloi', function isidloi0(entity) {
         return idloi[entity.tags.idloi];

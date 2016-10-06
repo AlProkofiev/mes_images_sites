@@ -3040,8 +3040,21 @@
                 "terms": "Chaussée"
             },
 
-
-
+	     "idloi/0": {
+                "name": "Non renseigné",
+                "terms": "Non renseigné"
+            },
+ 	    "idloi/1": {
+                "name": "Conforme",
+                "terms": "Conforme"
+            }, "idloi/2": {
+                "name": "Non conforme",
+                "terms": "Non conforme"
+            }, "idloi/3": {
+                "name": "A vérifier",
+                "terms": "A vérifier"
+            },
+	    	
 
              "highway/chemin_wegoto": {
                 "name": "Chemin",
