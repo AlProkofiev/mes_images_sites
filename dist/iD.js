@@ -30439,11 +30439,51 @@ iD.Features = function(context) {
     
 
     var idloi = {
-	'1':true
+	'1':true,
+	'path': true,
+        'footway': true,
+        'cycleway': true,
+        'bridleway': true,
+        'steps': true,
+        'pedestrian': true,
+        'corridor': true,
+	'motorway': true,
+        'motorway_link': true,
+        'trunk': true,
+        'trunk_link': true,
+        'primary': true,
+        'primary_link': true,
+        'secondary': true,
+        'secondary_link': true,
+        'tertiary': true,
+        'tertiary_link': true,
+        'residential': true,
+        'unclassified': true,
+        'living_street': true
     };
 
     var idloi2 = {
-	'2':true
+	'2':true,
+	'path': true,
+        'footway': true,
+        'cycleway': true,
+        'bridleway': true,
+        'steps': true,
+        'pedestrian': true,
+        'corridor': true,
+	'motorway': true,
+        'motorway_link': true,
+        'trunk': true,
+        'trunk_link': true,
+        'primary': true,
+        'primary_link': true,
+        'secondary': true,
+        'secondary_link': true,
+        'tertiary': true,
+        'tertiary_link': true,
+        'residential': true,
+        'unclassified': true,
+        'living_street': true
     };
 
     
@@ -30514,11 +30554,11 @@ iD.Features = function(context) {
     });
 
     defineFeature('idloi', function isidloi(entity) {
-        return idloi[entity.tags.idloi];
+        return entity.tags.idloi==1;
     });
 
     defineFeature('idloi2', function isidloi(entity) {
-        return idloi[entity.tags.idloi];
+        return entity.tags.idloi==2;
     });
 
     /*defineFeature('id_loi3', function isidloi3(entity) {

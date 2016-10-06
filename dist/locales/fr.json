@@ -364,13 +364,7 @@
         },
 	 "idloi": {
                 "label": "Conformité",
-		"tooltip": "Conformité",
-                "options":{
-                    "0":"Non renseigné",
-                    "1": "Conforme",
-                    "2": "Non conforme",
-                    "3": "A vérifier"
-                }
+		"tooltip": "Conformité"
             },
         "service_roads": {
             "description": "Route d'accès",
