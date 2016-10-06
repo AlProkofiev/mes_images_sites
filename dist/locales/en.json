@@ -360,6 +360,15 @@
             "description": "Traffic Roads",
             "tooltip": "Highways, Streets, etc."
         },
+	 "idloi": {
+                "label": "Conformité",
+                "options": {
+                    "0": "Not specified",
+                    "1": "Standard",
+                    "2": "Improper",
+                    "3": "To validate"
+                }
+            },
         "service_roads": {
             "description": "Service Roads",
             "tooltip": "Service Roads, Parking Aisles, Tracks, etc."
