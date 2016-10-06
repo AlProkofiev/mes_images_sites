@@ -21,6 +21,10 @@ iD.Features = function(context) {
 	'1':true,
     };
 
+    var idloi2 = {
+	'2':true,
+    };
+
     
 
     var service_roads = {
@@ -89,6 +93,10 @@ iD.Features = function(context) {
     });
 
     defineFeature('idloi', function isidloi(entity) {
+        return idloi[entity.tags.idloi];
+    });
+
+    defineFeature('idloi2', function isidloi(entity) {
         return idloi[entity.tags.idloi];
     });
 
