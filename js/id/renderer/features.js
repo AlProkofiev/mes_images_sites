@@ -65,6 +65,55 @@ iD.Features = function(context) {
         'living_street': true
     };
 
+    var idloi2 = {
+	'2':true,
+	'path': true,
+        'footway': true,
+        'cycleway': true,
+        'bridleway': true,
+        'steps': true,
+        'pedestrian': true,
+        'corridor': true,
+	'motorway': true,
+        'motorway_link': true,
+        'trunk': true,
+        'trunk_link': true,
+        'primary': true,
+        'primary_link': true,
+        'secondary': true,
+        'secondary_link': true,
+        'tertiary': true,
+        'tertiary_link': true,
+        'residential': true,
+        'unclassified': true,
+        'living_street': true
+    };
+
+    var idloi0 = {
+	'0':true,
+	'path': true,
+        'footway': true,
+        'cycleway': true,
+        'bridleway': true,
+        'steps': true,
+        'pedestrian': true,
+        'corridor': true,
+	'motorway': true,
+        'motorway_link': true,
+        'trunk': true,
+        'trunk_link': true,
+        'primary': true,
+        'primary_link': true,
+        'secondary': true,
+        'secondary_link': true,
+        'tertiary': true,
+        'tertiary_link': true,
+        'residential': true,
+        'unclassified': true,
+        'living_street': true
+    };
+
+
     
 
     var service_roads = {
@@ -138,6 +187,14 @@ iD.Features = function(context) {
 
     defineFeature('idloi2', function isidloi(entity) {
         return entity.tags.idloi==2;
+    });
+
+     defineFeature('idloi3', function isidloi(entity) {
+        return entity.tags.idloi==3;
+    });
+
+     defineFeature('idloi0', function isidloi(entity) {
+        return entity.tags.idloi==0;
     });
 
     /*defineFeature('id_loi3', function isidloi3(entity) {

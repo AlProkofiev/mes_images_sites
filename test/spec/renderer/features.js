@@ -110,6 +110,8 @@ describe('iD.Features', function() {
 	    // Conformité
             iD.Way({id: '1', tags: {idloi: '1'}, version: 1}),
             iD.Way({id: '2', tags: {idloi: '2'}, version: 1}),
+	    iD.Way({id: '3', tags: {idloi: '1'}, version: 1}),
+            iD.Way({id: '0', tags: {idloi: '2'}, version: 1}),
 
             // Service Roads
             iD.Way({id: 'service', tags: {highway: 'service'}, version: 1}),

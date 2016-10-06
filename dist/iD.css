@@ -235,6 +235,13 @@ g.midpoint .fill {
     opacity: .7;
 }
 
+g.midpoint.tag-highway.tag-idloi-1 .fill {
+    fill: #e56809;
+    stroke: #e56809;
+    stroke-opacity: .6;
+    opacity: .7;
+}
+
 g.midpoint.tag-highway-corridor .fill,
 g.midpoint.tag-highway-pedestrian .fill,
 g.midpoint.tag-highway-steps .fill,

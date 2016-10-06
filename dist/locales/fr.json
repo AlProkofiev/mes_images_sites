@@ -363,8 +363,16 @@
             "tooltip": "Non conformité"
         },
 	 "idloi": {
-                "label": "Conformité",
+                "description": "Conformité",
 		"tooltip": "Conformité"
+            },
+	"idloi0": {
+                "description": "Conformité non renseignée",
+		"tooltip": "Conformité non renseignée"
+            },
+	"idloi3": {
+                "description": "Conformité à valider",
+		"tooltip": "Conformité à valider"
             },
         "service_roads": {
             "description": "Route d'accès",
