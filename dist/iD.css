@@ -241,7 +241,7 @@ g.midpoint .fill {
     opacity: .7;
 }
 
-g.midpoint.tag-highway.tag-idloi-1 .fill {
+g.midpoint.tag-highway.tag-idloi .fill {
     fill: #e56809;
     stroke: #e56809;
     stroke-opacity: .6;
