@@ -15,8 +15,7 @@ describe('iD.Features', function() {
             expect(keys).to.include(
                 'points', 'traffic_roads', 'service_roads', 'paths',
                 'buildings', 'landuse', 'boundaries', 'water', 'rail',
-                'power', 'past_future', 'others',
-		'idloi','idloi1','idloi2','idloi3'
+                'power', 'past_future', 'others'
             );
         });
     });
