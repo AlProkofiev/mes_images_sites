@@ -30436,11 +30436,11 @@ iD.Features = function(context) {
         'living_street': true
     };
 
-    var id_loi0 = {
+    var idloi0 = {
 	'0':true,
     };
 
-    var id_loi1 = {
+    var idloi = {
 	'1':true,
     };
 
@@ -30513,12 +30513,12 @@ iD.Features = function(context) {
         return geometry === 'point';
     }, 200);
 
-    defineFeature('traffic_roads', function isTrafficRoad(entity) {
+    /*defineFeature('traffic_roads', function isTrafficRoad(entity) {
         return traffic_roads[entity.tags.highway];
-    });
+    });*/
 
-    defineFeature('id_loi0', function isidloi0(entity) {
-        return id_loi0[entity.tags.idloi];
+    defineFeature('idloi', function isidloi0(entity) {
+        return idloi[entity.tags.idloi];
     });
 
     defineFeature('id_loi3', function isidloi3(entity) {
