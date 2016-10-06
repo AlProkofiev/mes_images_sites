@@ -13,10 +13,10 @@ describe('iD.Features', function() {
         it('returns feature keys', function() {
             var keys = features.keys();
             expect(keys).to.include(
-                /*'points', 'traffic_roads', 'service_roads', 'paths',
+                'points', 'traffic_roads', 'service_roads', 'paths',
                 'buildings', 'landuse', 'boundaries', 'water', 'rail',
-                'power', 'past_future', 'others'*/
-		'idloi0','idloi1','idloi2','idloi3'
+                'power', 'past_future', 'others',
+		'idloi','idloi1','idloi2','idloi3'
             );
         });
     });
@@ -250,7 +250,7 @@ describe('iD.Features', function() {
             ]);
         });
 
-	it("matches id loi0", function () {
+	/*it("matches id loi0", function () {
             features.disable('idloi0');
             features.gatherStats(all, graph, dimensions);
 
@@ -320,7 +320,7 @@ it("matches id loi3", function () {
                 'forest', 'boundary', 'water', 'railway', 'power_line',
                 'motorway_construction', 'fence'
             ]);
-        });
+        });*/
 
 
         it("matches service roads", function () {
