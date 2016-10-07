@@ -224,17 +224,7 @@ g.vertex .stroke {
     fill: white;
 }
 
-g.midpoint.tag-highway.tag-idloi-1 .stroke{
-    stroke: #e56809;
-    stroke-width: 1;
-    fill: white;
-}
 
-g.vertex.tag-highway.tag-idloi-1 .stroke{
-    stroke: #e56809;
-    stroke-width: 1;
-    fill: white;
-}
 
 g.vertex.shared .stroke {
     fill: #aaa;
@@ -247,12 +237,7 @@ g.midpoint .fill {
     opacity: .7;
 }
 
-g.midpoint.tag-highway-footway.tag-idloi-1 .fill {
-    fill: #e56809;
-    stroke: #e56809;
-    stroke-opacity: .6;
-    opacity: .7;
-}
+
 
 g.midpoint.tag-highway-corridor .fill,
 g.midpoint.tag-highway-pedestrian .fill,
@@ -883,10 +868,7 @@ path.stroke.tag-road {
     stroke-width:4;
 }
 
-path.stroke.tag-highway.tag-idloi-1{
-stroke: #e56809;
-    stroke-width:10;
-}
+
 
 path.casing.tag-highway-living_street,
 path.casing.tag-highway-service,
@@ -917,10 +899,7 @@ path.casing.tag-road {
 
 
 
-path.casing.tag-idloi-1{
-	stroke: #e56809;
-    stroke-width:10;
-}
+
 
 .low-zoom path.stroke.tag-highway-living_street,
 .low-zoom path.stroke.tag-highway-service,
@@ -949,10 +928,7 @@ path.casing.tag-idloi-1{
     stroke-width:2;
 }
 
-.low-zoom path.stroke.tag-highway.tag-idloi-1{
-stroke: #e56809;
-    stroke-width:10;
-}
+
 
 .low-zoom path.casing.tag-highway-living_street,
 .low-zoom path.casing.tag-highway-service,
@@ -981,10 +957,7 @@ stroke: #e56809;
     stroke-width:4;
 }
 
-.low-zoom path.casing.tag-highway.tag-idloi-1{
-stroke: #e56809;
-    stroke-width:10;
-}
+
 
 .preset-icon .icon.highway-living-street {
     color: #ccc;

@@ -30671,7 +30671,7 @@ iD.Features = function(context) {
             entity.tags.landuse === 'reservoir' ||
             entity.tags.landuse === 'salt_pond'
         );
-    });*/
+    });
 
     defineFeature('rail', function isRail(entity) {
         return (
@@ -30703,7 +30703,7 @@ iD.Features = function(context) {
             if (past_futures[s] || past_futures[entity.tags[s]]) { return true; }
         }
         return false;
-    });
+    });*/
 
     // Lines or areas that don't match another feature filter.
     // IMPORTANT: The 'others' feature must be the last one defined,
