@@ -173,13 +173,13 @@ iD.Features = function(context) {
     }
 
 
-    defineFeature('points', function isPoint(entity, resolver, geometry) {
+    /*defineFeature('points', function isPoint(entity, resolver, geometry) {
         return geometry === 'point';
     }, 200);
 
     defineFeature('traffic_roads', function isTrafficRoad(entity) {
         return traffic_roads[entity.tags.highway];
-    });
+    });*/
 
     defineFeature('idloi', function isidloi(entity) {
         return entity.tags.idloi==1;
@@ -209,7 +209,7 @@ iD.Features = function(context) {
         return id_loi2[entity.tags.idloi];
     });*/
 
-    defineFeature('service_roads', function isServiceRoad(entity) {
+    /*defineFeature('service_roads', function isServiceRoad(entity) {
         return service_roads[entity.tags.highway];
     });
 
@@ -250,7 +250,7 @@ iD.Features = function(context) {
             entity.tags.landuse === 'reservoir' ||
             entity.tags.landuse === 'salt_pond'
         );
-    });
+    });*/
 
     defineFeature('rail', function isRail(entity) {
         return (
