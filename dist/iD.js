@@ -33534,7 +33534,7 @@ iD.svg.TagClasses = function() {
         ],
         secondaries = [
             'oneway', 'bridge', 'tunnel', 'embankment', 'cutting', 'barrier',
-            'surface', 'tracktype', 'crossing'
+            'surface', 'tracktype', 'crossing','0','1','2','3','idloi'
         ],
         tagClassRe = /^tag-/,
         tags = function(entity) { return entity.tags; };
