@@ -45,6 +45,9 @@
         "icon": "poi",
         "members": [
             "poi/building",
+            "poi/building1",
+            "poi/building2",
+            "poi/building3",
             "poi/atm_wegoto",
             "poi/bicycle_wegoto",
             "poi/carpool_wegoto",

@@ -1306,6 +1306,18 @@
                 "name": "Building",
                 "terms": "building,bâtiment"
             },
+            "poi/building1": {
+                "name": "Building",
+                "terms": "building,bâtiment"
+            },
+            "poi/building2": {
+                "name": "Building",
+                "terms": "building,bâtiment"
+            },
+            "poi/building3": {
+                "name": "Building",
+                "terms": "building,bâtiment"
+            },
             "poi/byciclepark_wegoto": {
                 "name": "Bicycle park",
                 "terms": "Bycicle park, parking vélos"

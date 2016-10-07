@@ -931,6 +931,111 @@
         },
         "name": "Building"
     },
+    "poi/building1": {
+        "icon": "building1",
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "fields": [
+            "door_typology",
+            "door_automatic",
+            "door_handle",
+            "entrance",
+            "entrancewidth_conformity",
+            "entrancewidth_obstacle",
+            "opening",
+            "name",
+            "operator",
+            "ramp_wheelchair",
+            "step_count",
+            "threshold_wheelchair",
+            "ramp_bearing",
+            "high_step",
+            "node_bat_sens_ouverture",
+            "addresse_b",
+            "idloi"
+        ],
+        "terms": [
+            "building",
+            "bâtiment"
+        ],
+        "tags": {
+            "building": "yes",
+            "idloi": "1"
+        },
+        "name": "Building"
+    },
+    "poi/building2": {
+        "icon": "building2",
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "fields": [
+            "door_typology",
+            "door_automatic",
+            "door_handle",
+            "entrance",
+            "entrancewidth_conformity",
+            "entrancewidth_obstacle",
+            "opening",
+            "name",
+            "operator",
+            "ramp_wheelchair",
+            "step_count",
+            "threshold_wheelchair",
+            "ramp_bearing",
+            "high_step",
+            "node_bat_sens_ouverture",
+            "addresse_b",
+            "idloi"
+        ],
+        "terms": [
+            "building",
+            "bâtiment"
+        ],
+        "tags": {
+            "building": "yes",
+            "idloi": "2"
+        },
+        "name": "Building"
+    },
+    "poi/building3": {
+        "icon": "building3",
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "fields": [
+            "door_typology",
+            "door_automatic",
+            "door_handle",
+            "entrance",
+            "entrancewidth_conformity",
+            "entrancewidth_obstacle",
+            "opening",
+            "name",
+            "operator",
+            "ramp_wheelchair",
+            "step_count",
+            "threshold_wheelchair",
+            "ramp_bearing",
+            "high_step",
+            "node_bat_sens_ouverture",
+            "addresse_b",
+            "idloi"
+        ],
+        "terms": [
+            "building",
+            "bâtiment"
+        ],
+        "tags": {
+            "building": "yes",
+            "idloi": "3"
+        },
+        "name": "Building"
+    },
     "poi/byciclepark_wegoto": {
         "icon": "bike-parking",
         "geometry": [

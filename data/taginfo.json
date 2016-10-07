@@ -208,6 +208,18 @@
             "value": "yes"
         },
         {
+            "key": "idloi",
+            "value": "1"
+        },
+        {
+            "key": "idloi",
+            "value": "2"
+        },
+        {
+            "key": "idloi",
+            "value": "3"
+        },
+        {
             "key": "obstacle:type",
             "value": "bicycle_park"
         },

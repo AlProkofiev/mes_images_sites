@@ -854,6 +854,21 @@ en:
         name: Building
         # 'terms: building,bâtiment'
         terms: "<translate with synonyms or related terms for 'Building', separated by commas>"
+      poi/building1:
+        # 'building=yes, idloi=1'
+        name: Building
+        # 'terms: building,bâtiment'
+        terms: "<translate with synonyms or related terms for 'Building', separated by commas>"
+      poi/building2:
+        # 'building=yes, idloi=2'
+        name: Building
+        # 'terms: building,bâtiment'
+        terms: "<translate with synonyms or related terms for 'Building', separated by commas>"
+      poi/building3:
+        # 'building=yes, idloi=3'
+        name: Building
+        # 'terms: building,bâtiment'
+        terms: "<translate with synonyms or related terms for 'Building', separated by commas>"
       poi/byciclepark_wegoto:
         # 'obstacle:type=bicycle_park'
         name: Bicycle park
