@@ -28,6 +28,7 @@
             "line_right",
             "line_left",
             "surface_wegoto",
+	    "access_bicyle", 
             "idloi"
         ],
         "geometry": [
@@ -84,6 +85,7 @@
             "line_right",
             "line_left",
             "surface_wegoto",
+	    "access_bicyle", 
             "idloi"
         ],
         "geometry": [
@@ -200,6 +202,7 @@
             "line_right",
             "line_left",
             "surface_wegoto",
+	    "access_bicyle", 
             "idloi"
         ],
         "geometry": [
@@ -283,6 +286,7 @@
             "line_right",
             "line_left",
             "surface_wegoto",
+	    "access_bicyle", 
             "idloi"
         ],
         "geometry": [
@@ -313,6 +317,7 @@
             "line_right",
             "line_left",
             "surface_wegoto",
+	    "access_bicyle", 
             "idloi"
         ],
         "geometry": [

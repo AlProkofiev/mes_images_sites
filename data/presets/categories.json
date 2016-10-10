@@ -75,6 +75,7 @@
             "highway/cyclable_wegoto",
             "highway/traversee_wegoto",
             "highway/ilot_wegoto",
+	    "highway/access_bicycle",
             "highway/autre_wegoto"
         ]
     },
