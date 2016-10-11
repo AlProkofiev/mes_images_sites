@@ -374,6 +374,10 @@
                 "description": "Conformité à valider",
 		"tooltip": "Conformité à valider"
             },
+	"segregated": {
+                "description": "Séparation",
+		"tooltip": "Séparation entre les deux voies"
+            },
         "service_roads": {
             "description": "Route d'accès",
             "tooltip": "Voies de service, Allées de stationnement, Chemins, etc."
@@ -1206,6 +1210,9 @@
             "incline_wegoto": {
                 "label": "Pente en % "
             },
+	    "bicycle": {
+                "label": "Permission d'accès"
+            },	
 		
             "line_left": {
                 "label": "Séparation gauche",
