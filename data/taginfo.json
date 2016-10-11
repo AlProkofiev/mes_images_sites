@@ -16,6 +16,10 @@
             "key": "addr:housenumber"
         },
         {
+            "key": "area",
+            "value": "yes"
+        },
+        {
             "key": "footway",
             "value": "other"
         },

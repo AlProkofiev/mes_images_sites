@@ -682,6 +682,10 @@ en:
         # 'addr:housenumber=*'
         name: Address
         terms: "<translate with synonyms or related terms for 'Address', separated by commas>"
+      area:
+        # area=yes
+        name: Area
+        terms: "<translate with synonyms or related terms for 'Area', separated by commas>"
       highway/autre_wegoto:
         # footway=other
         name: Other Road

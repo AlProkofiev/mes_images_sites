@@ -14,6 +14,16 @@
         "matchScore": 0.2,
         "name": "Address"
     },
+    "area": {
+        "name": "Area",
+        "tags": {
+            "area": "yes"
+        },
+        "geometry": [
+            "area"
+        ],
+        "matchScore": 0.1
+    },
     "highway/autre_wegoto": {
         "icon": "highway-unclassified",
         "fields": [
