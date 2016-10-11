@@ -667,35 +667,7 @@
             }
         },
         "fields": {
-	     "access_bicycle": {
-                "label": "Permissions d'accès",
-                "placeholder": "Non spécifiée",
-                "types": {
-                    "foot": "Piétons",
-                    "bicycle": "Vélos"
-                },
-                "options": {
-                    
-                    "designated": {
-                        "title": "Indiqué",
-                        "description": "Accès permit"
-                    }
-                },
-		"types": {
-			"segregated": "Séparation"
-		},
-		"options": {
-                    "yes": {
-                        "title": "Séparation marquée",
-                        "description": "Marquage au sol"
-                    },
-                    "no": {
-                        "title": "Pas de séparation",
-                        "description": "Pas de séparation"
-                    },
-		}	
-
-            },	
+	     
             "access": {
                 "label": "Accès autorisé",
                 "options": {
