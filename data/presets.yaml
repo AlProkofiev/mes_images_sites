@@ -14,30 +14,10 @@ en:
         # 'bicycle=*, foot=*, segregated=*'
         label: Allowed Access
         options:
-          # designated=yes
-          designated:
-            description: Access permitted according to signs or specific local laws
-            title: Designated
-          # destination=yes
-          destination:
-            description: Access permitted only to reach a destination
-            title: Destination
-          # dismount=yes
-          dismount:
-            description: Access permitted but rider must dismount
-            title: Dismount
           # no=yes
           'no':
             description: Access not permitted to the general public
             title: Prohibited
-          # permissive=yes
-          permissive:
-            description: Access permitted until such time as the owner revokes the permission
-            title: Permissive
-          # private=yes
-          private:
-            description: Access permitted only with permission of the owner on an individual basis
-            title: Private
           # yes=yes
           'yes':
             description: Access permitted by law; a right of way
@@ -45,8 +25,6 @@ en:
         # access_bicycle field placeholder
         placeholder: Not Specified
         types:
-          bicycle: Bicycles
-          foot: Foot
           segregated: Segregated
       address:
         # 'addr:city=*, addr:postcode=*'
