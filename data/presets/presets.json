@@ -234,10 +234,11 @@
         "tags": {
             "area": "yes"
         },
+        "removeTags": {},
+        "icon": "highway-path",
         "geometry": [
             "area"
-        ],
-        "matchScore": 0.1
+        ]
     },
     "highway/traversee_sortie": {
         "icon": "circle",

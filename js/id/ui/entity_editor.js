@@ -147,7 +147,7 @@ iD.ui.EntityEditor = function(context) {
         function cleanVal(k, v) {
             function keepSpaces(k) {
                 var whitelist = ['opening_hours', 'service_times', 'collection_times',
-                    'operating_times', 'smoking_hours', 'happy_hours'];
+                    'operating_times', 'smoking_hours', 'happy_hours','roadworksbegin','roadworksend'];
                 return _.some(whitelist, function(s) { return k.indexOf(s) !== -1; });
             }
 

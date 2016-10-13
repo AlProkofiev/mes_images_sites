@@ -504,6 +504,8 @@ en:
       roadworksbegin:
         # 'roadworksbegin=*'
         label: Date de début de travaux
+        # roadworksbegin field placeholder
+        placeholder: JJ/MM/AAAA
       roadworksend:
         # 'roadworksend=*'
         label: Date de fin

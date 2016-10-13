@@ -1022,7 +1022,8 @@
                 "label": "Type"
             },
             "roadworksbegin": {
-                "label": "Date de début de travaux"
+                "label": "Date de début de travaux",
+                "placeholder": "JJ/MM/AAAA"
             },
             "roadworksend": {
                 "label": "Date de fin",
