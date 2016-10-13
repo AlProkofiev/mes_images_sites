@@ -1,6 +1,6 @@
 {
-    "key": "roadworks:monthbegin",
+    "key": "roadworks:end",
     "type": "text",
-    "label": "Mois de début",
-   "placeholder":"1 à 12"
+    "label": "Date de fin",
+   "placeholder":"JJ/MM/AAAA"
 }

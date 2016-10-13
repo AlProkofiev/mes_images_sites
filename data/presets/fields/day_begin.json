@@ -1,7 +1,7 @@
 {
-    "key": "roadworks:daybegin",
+    "key": "roadworks:begin",
     "type": "text",
-    "label": "Jour de début",
-    "placeholder":"1 à 30-31"
+    "label": "Date de début de travaux",
+    "placeholder":"JJ/MM/AAAA"
    
 }

@@ -82,10 +82,10 @@ en:
         # 'crossing=*'
         label: Type
       day_begin:
-        # 'roadworks:daybegin=*'
-        label: Jour de début
+        # 'roadworks:begin=*'
+        label: Date de début de travaux
         # day_begin field placeholder
-        placeholder: 1 à 30-31
+        placeholder: JJ/MM/AAAA
       door_automatic:
         # 'fr.wegoto.door.automatic=*'
         label: Door Automatic
@@ -371,10 +371,10 @@ en:
         # marquage_wegoto field placeholder
         placeholder: 'Bande blanche, absence de marquage, ...'
       month_begin:
-        # 'roadworks:monthbegin=*'
-        label: Mois de début
+        # 'roadworks:end=*'
+        label: Date de fin
         # month_begin field placeholder
-        placeholder: 1 à 12
+        placeholder: JJ/MM/AAAA
       name:
         # 'name=*'
         label: Name

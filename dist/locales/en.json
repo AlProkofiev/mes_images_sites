@@ -704,8 +704,8 @@
                 "label": "Type"
             },
             "day_begin": {
-                "label": "Jour de début",
-                "placeholder": "1 à 30-31"
+                "label": "Date de début de travaux",
+                "placeholder": "JJ/MM/AAAA"
             },
             "door_automatic": {
                 "label": "Door Automatic",
@@ -919,8 +919,8 @@
                 }
             },
             "month_begin": {
-                "label": "Mois de début",
-                "placeholder": "1 à 12"
+                "label": "Date de fin",
+                "placeholder": "JJ/MM/AAAA"
             },
             "name": {
                 "label": "Name",

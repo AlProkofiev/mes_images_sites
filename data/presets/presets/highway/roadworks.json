@@ -1,7 +1,8 @@
 {
     "name": "Roadwork",
     "fields": [
-        "roadworks_date_begin"
+        "day_begin",
+	"month_begin"
     ],
     "tags": {
         "area": "yes"
