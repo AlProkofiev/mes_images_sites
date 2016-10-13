@@ -751,7 +751,7 @@
             },
 	    "roadworks_date_begin": {
                 "label": "Date de début",
-                "placeholders": {
+                "types": {
                     "day_begin": "Jour",
                     "month_begin": "Mois",
                     "year_begin": "Année"
