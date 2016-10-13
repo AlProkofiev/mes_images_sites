@@ -225,6 +225,19 @@
         "terms": [],
         "name": "Pedestrian Street"
     },
+    "highway/roadworks": {
+        "name": "Roadwork",
+        "fields": [
+            "roadworks_date_begin"
+        ],
+        "tags": {
+            "area": "yes"
+        },
+        "geometry": [
+            "area"
+        ],
+        "matchScore": 0.1
+    },
     "highway/traversee_sortie": {
         "icon": "circle",
         "fields": [
@@ -1238,19 +1251,6 @@
         "fields": [
             "relation"
         ]
-    },
-    "roadworks": {
-        "name": "Roadwork",
-        "fields": [
-            "roadworks_date_begin"
-        ],
-        "tags": {
-            "area": "yes"
-        },
-        "geometry": [
-            "area"
-        ],
-        "matchScore": 0.1
     },
     "rupture/marche_rampe": {
         "icon": "ramp",

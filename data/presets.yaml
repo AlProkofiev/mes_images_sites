@@ -742,6 +742,10 @@ en:
         # highway=pedestrian
         name: Pedestrian Street
         terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
+      highway/roadworks:
+        # area=yes
+        name: Roadwork
+        terms: "<translate with synonyms or related terms for 'Roadwork', separated by commas>"
       highway/traversee_sortie:
         # 'crossing:node=yes'
         name: Crossing
@@ -987,10 +991,6 @@ en:
       relation:
         name: Relation
         terms: "<translate with synonyms or related terms for 'Relation', separated by commas>"
-      roadworks:
-        # area=yes
-        name: Roadwork
-        terms: "<translate with synonyms or related terms for 'Roadwork', separated by commas>"
       rupture/marche_rampe:
         # 'breakpoint:presence=onestep, breakpoint:ramp=yes, breakpoint:elevator=no'
         name: Marche avec rampe de seuil

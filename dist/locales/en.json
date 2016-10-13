@@ -1208,6 +1208,10 @@
                 "name": "Pedestrian Street",
                 "terms": ""
             },
+            "highway/roadworks": {
+                "name": "Roadwork",
+                "terms": ""
+            },
             "highway/traversee_sortie": {
                 "name": "Crossing",
                 "terms": ""
@@ -1434,10 +1438,6 @@
             },
             "relation": {
                 "name": "Relation",
-                "terms": ""
-            },
-            "roadworks": {
-                "name": "Roadwork",
                 "terms": ""
             },
             "rupture/marche_rampe": {

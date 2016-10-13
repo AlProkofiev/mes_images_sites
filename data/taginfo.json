@@ -52,6 +52,10 @@
             "value": "pedestrian"
         },
         {
+            "key": "area",
+            "value": "yes"
+        },
+        {
             "key": "crossing:node",
             "value": "yes"
         },
@@ -266,10 +270,6 @@
         {
             "key": "obstacle:type",
             "value": "toilet"
-        },
-        {
-            "key": "area",
-            "value": "yes"
         },
         {
             "key": "breakpoint:elevator",
