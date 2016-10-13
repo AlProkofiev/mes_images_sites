@@ -749,6 +749,14 @@
                 "label": "Accès autorisé",
                 "placeholder": "oui"
             },
+	    "day_begin": {
+                "label": "Jour",
+                "placeholder": "oui"
+            },
+	    "roadworks_date_begin": {
+                "label": "Date de début",
+                "placeholder": "oui"
+            },
             "access_toilets": {
                 "label": "Accès"
             },

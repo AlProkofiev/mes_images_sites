@@ -1036,8 +1036,7 @@
                     "day_begin": "day",
                     "month_begin": "month",
                     "year_begin": "year"
-                },
-                "options": {}
+                }
             },
             "roadworks_date_end": {
                 "label": "End date",

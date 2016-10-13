@@ -2,7 +2,7 @@
 {
     "keys": ["date_begin", "month_begin", "year_begin"],
     "reference": {"key": "area"},
-    "type": "access",
+    "type": "number",
     "label": "Start date",
     "placeholder": "Not Specified",
     "strings": {
@@ -10,9 +10,6 @@
             "day_begin": "day",
             "month_begin": "month",
 	    "year_begin": "year"
-        },
-        "options": {
-            
         }
     }
 }

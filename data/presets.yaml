@@ -514,7 +514,6 @@ en:
       roadworks_date_begin:
         # 'date_begin=*, month_begin=*, year_begin=*'
         label: Start date
-        options: {}
         # roadworks_date_begin field placeholder
         placeholder: Not Specified
         types:
