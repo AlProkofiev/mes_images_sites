@@ -236,7 +236,7 @@
             "name": "Zone de Travaux"
         },
         "removeTags": {},
-        "icon": "highway-path",
+        "icon": "roadblock",
         "geometry": [
             "area"
         ]

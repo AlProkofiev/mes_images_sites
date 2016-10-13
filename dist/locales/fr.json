@@ -3129,7 +3129,9 @@
                 "name": "Autre type de voie",
                 "terms": "Route inconnue"
             },
-
+	    "highway/roadworks": {
+                "name": "Travaux"
+            },
 
             "poa/atm_wegoto": {
                 "name": "Distributeur de billet"
