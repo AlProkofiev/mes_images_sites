@@ -1,7 +1,5 @@
 {
     "type": "address",
-    
-    
     "icon": "address",
     "universal": true,
     "label": "Adresse",

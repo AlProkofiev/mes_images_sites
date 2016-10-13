@@ -700,6 +700,10 @@
             "crossing": {
                 "label": "Type"
             },
+            "day_begin": {
+                "label": "Jour de début",
+                "placeholder": "1 à 30-31"
+            },
             "door_automatic": {
                 "label": "Door Automatic",
                 "options": {
@@ -911,6 +915,10 @@
                     "temporary": "Temporary"
                 }
             },
+            "month_begin": {
+                "label": "Mois de début",
+                "placeholder": "1 à 12"
+            },
             "name": {
                 "label": "Name",
                 "placeholder": "Name"
@@ -1017,6 +1025,14 @@
             },
             "relation": {
                 "label": "Type"
+            },
+            "roadworks_date_begin": {
+                "label": "Date de début",
+                "placeholders": {
+                    "day_begin": "City",
+                    "month_begin": "Postcode",
+                    "year_begin": "Housenumber"
+                }
             },
             "route": {
                 "label": "Type"
@@ -1142,6 +1158,10 @@
             },
             "wikipedia": {
                 "label": "Wikipedia"
+            },
+            "year_begin": {
+                "label": "Année de début",
+                "placeholder": "2016,2017,2018..."
             }
         },
         "presets": {

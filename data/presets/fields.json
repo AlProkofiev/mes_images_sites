@@ -109,6 +109,12 @@
         "type": "combo",
         "label": "Type"
     },
+    "day_begin": {
+        "key": "roadworks:daybegin",
+        "type": "number",
+        "label": "Jour de début",
+        "placeholder": "1 à 30-31"
+    },
     "door_automatic": {
         "key": "fr.wegoto.door.automatic",
         "type": "combo",
@@ -414,6 +420,12 @@
             }
         }
     },
+    "month_begin": {
+        "key": "roadworks:monthbegin",
+        "type": "number",
+        "label": "Mois de début",
+        "placeholder": "1 à 12"
+    },
     "name": {
         "key": "name",
         "type": "localized",
@@ -574,6 +586,19 @@
         "key": "type",
         "type": "combo",
         "label": "Type"
+    },
+    "roadworks_date_begin": {
+        "type": "address",
+        "icon": "address",
+        "universal": true,
+        "label": "Date de début",
+        "strings": {
+            "placeholders": {
+                "day_begin": "City",
+                "month_begin": "Postcode",
+                "year_begin": "Housenumber"
+            }
+        }
     },
     "route": {
         "key": "route",
@@ -761,5 +786,11 @@
         "icon": "wikipedia",
         "universal": true,
         "label": "Wikipedia"
+    },
+    "year_begin": {
+        "key": "roadworks:yearbegin",
+        "type": "number",
+        "label": "Année de début",
+        "placeholder": "2016,2017,2018..."
     }
 }

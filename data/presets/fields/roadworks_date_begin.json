@@ -1,0 +1,13 @@
+{
+    "type": "address",
+    "icon": "address",
+    "universal": true,
+    "label": "Date de début",
+    "strings": {
+        "placeholders": {
+          "day_begin": "City",
+          "month_begin": "Postcode",
+	  "year_begin": "Housenumber"
+        }
+    }
+}
