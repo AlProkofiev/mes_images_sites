@@ -109,24 +109,6 @@
         "type": "combo",
         "label": "Type"
     },
-    "date": {
-        "type": "date",
-        "keys": [
-            "roadworks:daybegin",
-            "roadworks:monthbegin",
-            "roadworks:yearbegin"
-        ],
-        "icon": "address",
-        "universal": true,
-        "label": "Date",
-        "strings": {
-            "placeholders": {
-                "day_begin": "day",
-                "month_begin": "month",
-                "year_begin": "year"
-            }
-        }
-    },
     "day_begin": {
         "key": "roadworks:daybegin",
         "type": "number",
@@ -606,20 +588,28 @@
         "label": "Type"
     },
     "roadworks_date_begin": {
-        "type": "date",
-        "icon": "address",
-        "universal": true,
+        "keys": [
+            "date_begin",
+            "month_begin",
+            "year_begin"
+        ],
+        "reference": {
+            "key": "area"
+        },
+        "type": "access",
         "label": "Start date",
+        "placeholder": "Not Specified",
         "strings": {
-            "placeholders": {
+            "types": {
                 "day_begin": "day",
                 "month_begin": "month",
                 "year_begin": "year"
-            }
+            },
+            "options": {}
         }
     },
     "roadworks_date_end": {
-        "type": "date",
+        "type": "combo",
         "icon": "address",
         "universal": true,
         "label": "End date",

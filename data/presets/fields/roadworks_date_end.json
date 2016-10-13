@@ -1,5 +1,5 @@
 {
-    "type": "date",
+    "type": "combo",
     "icon": "address",
     "universal": true,
     "label": "End date",

@@ -1,13 +1,18 @@
+
 {
-    "type": "date",
-    "icon": "address",
-    "universal": true,
+    "keys": ["date_begin", "month_begin", "year_begin"],
+    "reference": {"key": "area"},
+    "type": "access",
     "label": "Start date",
+    "placeholder": "Not Specified",
     "strings": {
-        "placeholders": {
-          "day_begin": "day",
-          "month_begin": "month",
-	  "year_begin": "year"
+        "types": {
+            "day_begin": "day",
+            "month_begin": "month",
+	    "year_begin": "year"
+        },
+        "options": {
+            
         }
     }
 }

@@ -81,13 +81,6 @@ en:
       crossing:
         # 'crossing=*'
         label: Type
-      date:
-        # 'roadworks:daybegin=*, roadworks:monthbegin=*, roadworks:yearbegin=*'
-        label: Date
-        placeholders:
-          day_begin: day
-          month_begin: month
-          year_begin: year
       day_begin:
         # 'roadworks:daybegin=*'
         label: Jour de début
@@ -519,8 +512,12 @@ en:
         # 'type=*'
         label: Type
       roadworks_date_begin:
+        # 'date_begin=*, month_begin=*, year_begin=*'
         label: Start date
-        placeholders:
+        options: {}
+        # roadworks_date_begin field placeholder
+        placeholder: Not Specified
+        types:
           day_begin: day
           month_begin: month
           year_begin: year
@@ -722,10 +719,6 @@ en:
         # area=yes
         name: Area
         terms: "<translate with synonyms or related terms for 'Area', separated by commas>"
-      date:
-        # 'roadworks:daybegin=*'
-        name: Date
-        terms: "<translate with synonyms or related terms for 'Date', separated by commas>"
       highway/autre_wegoto:
         # footway=other
         name: Other Road

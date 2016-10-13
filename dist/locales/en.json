@@ -703,14 +703,6 @@
             "crossing": {
                 "label": "Type"
             },
-            "date": {
-                "label": "Date",
-                "placeholders": {
-                    "day_begin": "day",
-                    "month_begin": "month",
-                    "year_begin": "year"
-                }
-            },
             "day_begin": {
                 "label": "Jour de début",
                 "placeholder": "1 à 30-31"
@@ -1039,11 +1031,13 @@
             },
             "roadworks_date_begin": {
                 "label": "Start date",
-                "placeholders": {
+                "placeholder": "Not Specified",
+                "types": {
                     "day_begin": "day",
                     "month_begin": "month",
                     "year_begin": "year"
-                }
+                },
+                "options": {}
             },
             "roadworks_date_end": {
                 "label": "End date",
@@ -1190,10 +1184,6 @@
             },
             "area": {
                 "name": "Area",
-                "terms": ""
-            },
-            "date": {
-                "name": "Date",
                 "terms": ""
             },
             "highway/autre_wegoto": {
