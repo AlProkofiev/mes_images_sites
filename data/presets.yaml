@@ -732,7 +732,7 @@ en:
         name: Pedestrian Street
         terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
       highway/roadworks:
-        # area=yes
+        # 'area=yes, name=Zone de Travaux'
         name: Roadwork
         terms: "<translate with synonyms or related terms for 'Roadwork', separated by commas>"
       highway/traversee_sortie:

@@ -52,8 +52,8 @@
             "value": "pedestrian"
         },
         {
-            "key": "area",
-            "value": "yes"
+            "key": "name",
+            "value": "Zone de Travaux"
         },
         {
             "key": "crossing:node",

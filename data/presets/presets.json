@@ -232,11 +232,10 @@
             "roadworksend"
         ],
         "tags": {
-            "area": "yes"
+            "area": "yes",
+            "name": "Zone de Travaux"
         },
-        "removeTags": {
-            "name": "*"
-        },
+        "removeTags": {},
         "icon": "highway-path",
         "geometry": [
             "area"
