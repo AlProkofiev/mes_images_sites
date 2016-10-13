@@ -2,7 +2,7 @@
 {
     "keys": ["date_begin", "month_begin", "year_begin"],
     "reference": {"key": "area"},
-    "type": "access",
+    "type": "typeCombo",
     "label": "Start date",
     "placeholder": "Not Specified",
     "strings": {

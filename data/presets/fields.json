@@ -596,7 +596,7 @@
         "reference": {
             "key": "area"
         },
-        "type": "access",
+        "type": "typeCombo",
         "label": "Start date",
         "placeholder": "Not Specified",
         "strings": {
