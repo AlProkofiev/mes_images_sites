@@ -2,7 +2,7 @@
     "type": "combo",
     "icon": "address",
     "universal": true,
-    "label": "Start date",
+    "label": "End date",
     "strings": {
         "placeholders": {
           "day_begin": "day",

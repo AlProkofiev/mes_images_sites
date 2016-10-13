@@ -1030,11 +1030,19 @@
                 "label": "Type"
             },
             "roadworks_date_begin": {
-                "label": "Date de début",
+                "label": "Start date",
                 "placeholders": {
-                    "day_begin": "City",
-                    "month_begin": "Postcode",
-                    "year_begin": "Housenumber"
+                    "day_begin": "day",
+                    "month_begin": "month",
+                    "year_begin": "year"
+                }
+            },
+            "roadworks_date_end": {
+                "label": "End date",
+                "placeholders": {
+                    "day_begin": "day",
+                    "month_begin": "month",
+                    "year_begin": "year"
                 }
             },
             "route": {

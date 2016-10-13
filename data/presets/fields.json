@@ -588,15 +588,28 @@
         "label": "Type"
     },
     "roadworks_date_begin": {
-        "type": "address",
+        "type": "combo",
         "icon": "address",
         "universal": true,
-        "label": "Date de début",
+        "label": "Start date",
         "strings": {
             "placeholders": {
-                "day_begin": "City",
-                "month_begin": "Postcode",
-                "year_begin": "Housenumber"
+                "day_begin": "day",
+                "month_begin": "month",
+                "year_begin": "year"
+            }
+        }
+    },
+    "roadworks_date_end": {
+        "type": "combo",
+        "icon": "address",
+        "universal": true,
+        "label": "End date",
+        "strings": {
+            "placeholders": {
+                "day_begin": "day",
+                "month_begin": "month",
+                "year_begin": "year"
             }
         }
     },

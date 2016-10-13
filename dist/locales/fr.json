@@ -648,7 +648,7 @@
                 "name": "Éléments  pour restrictions"
             },
             "category-road": {
-                "name": "Élémentssssss voiries"
+                "name": "Éléments voiries"
             },
              "category-poi": {
                 "name": "Points d'interets"
@@ -664,7 +664,10 @@
             },
             "category-water-line": {
                 "name": "Éléments aquatiques pour chemins"
-            }
+            },
+	    "category-roadworks":{
+		"name": "Travaux"
+	    },
         },
         "fields": {
 	     
@@ -709,6 +712,10 @@
                     "motor_vehicle": "Véhicules motorisés"
                 }
             },
+	    "roadworks_date_begin":{
+    		"label": "Date de début",
+    		
+	    },
             "tactile_paving":{
                 "label": "BEV",
                 "options": {
@@ -3126,7 +3133,25 @@
                 "name": "Autre type de voie",
                 "terms": "Route inconnue"
             },
+		
+            "highway/roadworks_date_begin": {
+                "name": "Date de début"
+            },
 
+	     "highway/roadworks_date_end": {
+                "name": "Date de fin"
+            },
+
+	    "day_begin": {
+                "name": "Jour"
+            },
+
+		"month_begin": {
+                "name": "Mois"
+            },
+		"year_begin": {
+                "name": "Année"
+            },
 
             "poa/atm_wegoto": {
                 "name": "Distributeur de billet"
