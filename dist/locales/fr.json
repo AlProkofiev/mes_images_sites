@@ -665,7 +665,6 @@
             "category-water-line": {
                 "name": "Éléments aquatiques pour chemins"
             }
-	    
         },
         "fields": {
 	     
@@ -710,10 +709,6 @@
                     "motor_vehicle": "Véhicules motorisés"
                 }
             },
-	    "roadworks_date_begin":{
-    		"label": "Date de début",
-    		
-	    },
             "tactile_paving":{
                 "label": "BEV",
                 "options": {
@@ -3131,8 +3126,7 @@
                 "name": "Autre type de voie",
                 "terms": "Route inconnue"
             },
-		
-           
+
 
             "poa/atm_wegoto": {
                 "name": "Distributeur de billet"
