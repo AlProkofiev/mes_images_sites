@@ -3138,20 +3138,7 @@
                 "name": "Date de début"
             },
 
-	     "highway/roadworks_date_end": {
-                "name": "Date de fin"
-            },
-
-	    "day_begin": {
-                "name": "Jour"
-            },
-
-		"month_begin": {
-                "name": "Mois"
-            },
-		"year_begin": {
-                "name": "Année"
-            },
+	    
 
             "poa/atm_wegoto": {
                 "name": "Distributeur de billet"
