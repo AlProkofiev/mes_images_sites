@@ -20,6 +20,9 @@
             "value": "yes"
         },
         {
+            "key": "roadworks:daybegin"
+        },
+        {
             "key": "footway",
             "value": "other"
         },

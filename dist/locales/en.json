@@ -703,6 +703,14 @@
             "crossing": {
                 "label": "Type"
             },
+            "date": {
+                "label": "Date",
+                "placeholders": {
+                    "day_begin": "day",
+                    "month_begin": "month",
+                    "year_begin": "year"
+                }
+            },
             "day_begin": {
                 "label": "Jour de début",
                 "placeholder": "1 à 30-31"
@@ -1182,6 +1190,10 @@
             },
             "area": {
                 "name": "Area",
+                "terms": ""
+            },
+            "date": {
+                "name": "Date",
                 "terms": ""
             },
             "highway/autre_wegoto": {

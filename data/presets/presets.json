@@ -24,6 +24,21 @@
         ],
         "matchScore": 0.1
     },
+    "date": {
+        "fields": [
+            "date"
+        ],
+        "geometry": [
+            "area"
+        ],
+        "tags": {
+            "roadworks:daybegin": "*"
+        },
+        "addTags": {},
+        "removeTags": {},
+        "matchScore": 0.2,
+        "name": "Date"
+    },
     "highway/autre_wegoto": {
         "icon": "highway-unclassified",
         "fields": [

@@ -1,0 +1,15 @@
+{
+    "fields": [
+        "date"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "roadworks:daybegin": "*"
+    },
+    "addTags": {},
+    "removeTags": {},
+    "matchScore": 0.2,
+    "name": "Date"
+}

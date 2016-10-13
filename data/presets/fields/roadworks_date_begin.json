@@ -1,5 +1,5 @@
 {
-    "type": "combo",
+    "type": "date",
     "icon": "address",
     "universal": true,
     "label": "Start date",
