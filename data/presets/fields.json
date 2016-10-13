@@ -109,12 +109,6 @@
         "type": "combo",
         "label": "Type"
     },
-    "day_begin": {
-        "key": "roadworks:begin",
-        "type": "text",
-        "label": "Date de début de travaux",
-        "placeholder": "JJ/MM/AAAA"
-    },
     "door_automatic": {
         "key": "fr.wegoto.door.automatic",
         "type": "combo",
@@ -420,12 +414,6 @@
             }
         }
     },
-    "month_begin": {
-        "key": "roadworks:end",
-        "type": "text",
-        "label": "Date de fin",
-        "placeholder": "JJ/MM/AAAA"
-    },
     "name": {
         "key": "name",
         "type": "localized",
@@ -587,37 +575,17 @@
         "type": "combo",
         "label": "Type"
     },
-    "roadworks_date_begin": {
-        "keys": [
-            "date_begin",
-            "month_begin",
-            "year_begin"
-        ],
-        "reference": {
-            "key": "area"
-        },
-        "type": "access",
-        "label": "Start date",
-        "strings": {
-            "types": {
-                "day_begin": "day",
-                "month_begin": "month",
-                "year_begin": "year"
-            }
-        }
+    "roadworksbegin": {
+        "key": "roadworksbegin",
+        "type": "text",
+        "label": "Date de début de travaux",
+        "placeholder": "JJ/MM/AAAA"
     },
-    "roadworks_date_end": {
-        "type": "combo",
-        "icon": "address",
-        "universal": true,
-        "label": "End date",
-        "strings": {
-            "placeholders": {
-                "day_begin": "day",
-                "month_begin": "month",
-                "year_begin": "year"
-            }
-        }
+    "roadworksend": {
+        "key": "roadworksend",
+        "type": "text",
+        "label": "Date de fin",
+        "placeholder": "JJ/MM/AAAA"
     },
     "route": {
         "key": "route",
@@ -805,11 +773,5 @@
         "icon": "wikipedia",
         "universal": true,
         "label": "Wikipedia"
-    },
-    "year_begin": {
-        "key": "roadworks:yearbegin",
-        "type": "text",
-        "label": "Année de début",
-        "placeholder": "2016,2017,2018..."
     }
 }

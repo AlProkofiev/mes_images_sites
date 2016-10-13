@@ -1,5 +1,5 @@
 {
-    "key": "roadworks:begin",
+    "key": "roadworksbegin",
     "type": "text",
     "label": "Date de début de travaux",
     "placeholder":"JJ/MM/AAAA"

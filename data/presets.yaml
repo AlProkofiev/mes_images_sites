@@ -81,11 +81,6 @@ en:
       crossing:
         # 'crossing=*'
         label: Type
-      day_begin:
-        # 'roadworks:begin=*'
-        label: Date de début de travaux
-        # day_begin field placeholder
-        placeholder: JJ/MM/AAAA
       door_automatic:
         # 'fr.wegoto.door.automatic=*'
         label: Door Automatic
@@ -370,11 +365,6 @@ en:
           zebra: Zebra
         # marquage_wegoto field placeholder
         placeholder: 'Bande blanche, absence de marquage, ...'
-      month_begin:
-        # 'roadworks:end=*'
-        label: Date de fin
-        # month_begin field placeholder
-        placeholder: JJ/MM/AAAA
       name:
         # 'name=*'
         label: Name
@@ -511,19 +501,16 @@ en:
       relation:
         # 'type=*'
         label: Type
-      roadworks_date_begin:
-        # 'date_begin=*, month_begin=*, year_begin=*'
-        label: Start date
-        types:
-          day_begin: day
-          month_begin: month
-          year_begin: year
-      roadworks_date_end:
-        label: End date
-        placeholders:
-          day_begin: day
-          month_begin: month
-          year_begin: year
+      roadworksbegin:
+        # 'roadworksbegin=*'
+        label: Date de début de travaux
+        # roadworksbegin field placeholder
+        placeholder: JJ/MM/AAAA
+      roadworksend:
+        # 'roadworksend=*'
+        label: Date de fin
+        # roadworksend field placeholder
+        placeholder: JJ/MM/AAAA
       route:
         # 'route=*'
         label: Type
@@ -702,11 +689,6 @@ en:
       wikipedia:
         # 'wikipedia=*, wikidata=*'
         label: Wikipedia
-      year_begin:
-        # 'roadworks:yearbegin=*'
-        label: Année de début
-        # year_begin field placeholder
-        placeholder: '2016,2017,2018...'
     presets:
       address:
         # 'addr:housenumber=*'

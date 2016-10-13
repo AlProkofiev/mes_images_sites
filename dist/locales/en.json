@@ -703,10 +703,6 @@
             "crossing": {
                 "label": "Type"
             },
-            "day_begin": {
-                "label": "Date de début de travaux",
-                "placeholder": "JJ/MM/AAAA"
-            },
             "door_automatic": {
                 "label": "Door Automatic",
                 "options": {
@@ -918,10 +914,6 @@
                     "temporary": "Temporary"
                 }
             },
-            "month_begin": {
-                "label": "Date de fin",
-                "placeholder": "JJ/MM/AAAA"
-            },
             "name": {
                 "label": "Name",
                 "placeholder": "Name"
@@ -1029,21 +1021,13 @@
             "relation": {
                 "label": "Type"
             },
-            "roadworks_date_begin": {
-                "label": "Start date",
-                "types": {
-                    "day_begin": "day",
-                    "month_begin": "month",
-                    "year_begin": "year"
-                }
+            "roadworksbegin": {
+                "label": "Date de début de travaux",
+                "placeholder": "JJ/MM/AAAA"
             },
-            "roadworks_date_end": {
-                "label": "End date",
-                "placeholders": {
-                    "day_begin": "day",
-                    "month_begin": "month",
-                    "year_begin": "year"
-                }
+            "roadworksend": {
+                "label": "Date de fin",
+                "placeholder": "JJ/MM/AAAA"
             },
             "route": {
                 "label": "Type"
@@ -1169,10 +1153,6 @@
             },
             "wikipedia": {
                 "label": "Wikipedia"
-            },
-            "year_begin": {
-                "label": "Année de début",
-                "placeholder": "2016,2017,2018..."
             }
         },
         "presets": {

@@ -1,0 +1,6 @@
+{
+    "key": "roadworksend",
+    "type": "text",
+    "label": "Date de fin",
+    "placeholder":"JJ/MM/AAAA"
+}

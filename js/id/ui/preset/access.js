@@ -49,17 +49,17 @@ iD.ui.preset.access = function(field) {
     }
 
     access.options = function(type) {
-        //var options = ['no', 'permissive', 'private', 'destination'];
-	var options = ['1', '...'];
+        var options = ['no', 'permissive', 'private', 'destination'];
+	
 
-        //if (type !== 'access') {
-          //  options.unshift('yes');
-           // options.push('designated');
+        if (type !== 'access') {
+            options.unshift('yes');
+            options.push('designated');
 
-            //if (type === 'bicycle') {
-              //  options.push('dismount');
-            //}
-        //}
+           if (type === 'bicycle') {
+                options.push('dismount');
+            }
+        }
 
         return options.map(function(option) {
             return {
