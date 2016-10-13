@@ -1,6 +1,6 @@
 {
     "key": "roadworks:yearbegin",
-    "type": "number",
+    "type": "text",
     "label": "Année de début",
 	"placeholder":"2016,2017,2018..."
 	

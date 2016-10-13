@@ -1,6 +1,6 @@
 {
     "key": "roadworks:daybegin",
-    "type": "number",
+    "type": "text",
     "label": "Jour de début",
     "placeholder":"1 à 30-31"
    

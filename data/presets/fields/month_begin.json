@@ -1,6 +1,6 @@
 {
     "key": "roadworks:monthbegin",
-    "type": "number",
+    "type": "text",
     "label": "Mois de début",
    "placeholder":"1 à 12"
 }

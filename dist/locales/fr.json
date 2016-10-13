@@ -671,7 +671,47 @@
         },
         "fields": {
 	     
-            
+            "access": {
+                "label": "Accès autorisé",
+                "options": {
+                    "designated": {
+                        "description": "Accès autorisé par des panneaux ou par une réglementation locale",
+                        "title": "Restreint à certains types de véhicules"
+                    },
+                    "destination": {
+                        "description": "Circulation interdite, sauf pour accéder aux zones desservies",
+                        "title": "Interdit sauf riverains"
+                    },
+                    "dismount": {
+                        "description": "Accès autorisé mais le cycliste-cavalier doit mettre pied à terre",
+                        "title": "Mettre pied à terre"
+                    },
+                    "no": {
+                        "description": "Accès interdit au public",
+                        "title": "Interdit"
+                    },
+                    "permissive": {
+                        "description": "Accès laissé libre par le propriétaire, révocable à tout moment",
+                        "title": "Accès permis"
+                    },
+                    "private": {
+                        "description": "Accès autorisé sur demande au propriétaire",
+                        "title": "Privé"
+                    },
+                    "yes": {
+                        "description": "Accès autorisé par servitude de passage",
+                        "title": "Autorisé"
+                    }
+                },
+                "placeholder": "Non spécifié",
+                "types": {
+                    "access": "Tous",
+                    "bicycle": "Vélos",
+                    "foot": "À pied",
+                    "horse": "Cavaliers",
+                    "motor_vehicle": "Véhicules motorisés"
+                }
+            },
             "tactile_paving":{
                 "label": "BEV",
                 "options": {

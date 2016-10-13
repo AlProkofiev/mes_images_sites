@@ -111,7 +111,7 @@
     },
     "day_begin": {
         "key": "roadworks:daybegin",
-        "type": "number",
+        "type": "text",
         "label": "Jour de début",
         "placeholder": "1 à 30-31"
     },
@@ -422,7 +422,7 @@
     },
     "month_begin": {
         "key": "roadworks:monthbegin",
-        "type": "number",
+        "type": "text",
         "label": "Mois de début",
         "placeholder": "1 à 12"
     },
@@ -808,7 +808,7 @@
     },
     "year_begin": {
         "key": "roadworks:yearbegin",
-        "type": "number",
+        "type": "text",
         "label": "Année de début",
         "placeholder": "2016,2017,2018..."
     }
