@@ -1239,6 +1239,19 @@
             "relation"
         ]
     },
+    "roadworks": {
+        "name": "Roadwork",
+        "fields": [
+            "roadworks_date_begin"
+        ],
+        "tags": {
+            "area": "yes"
+        },
+        "geometry": [
+            "area"
+        ],
+        "matchScore": 0.1
+    },
     "rupture/marche_rampe": {
         "icon": "ramp",
         "geometry": [

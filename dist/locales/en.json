@@ -622,6 +622,9 @@
             "category-road": {
                 "name": "Road Features"
             },
+            "category-roadworks": {
+                "name": "Road Works"
+            },
             "category-rupture": {
                 "name": "Rupture de niveau"
             }
@@ -1431,6 +1434,10 @@
             },
             "relation": {
                 "name": "Relation",
+                "terms": ""
+            },
+            "roadworks": {
+                "name": "Roadwork",
                 "terms": ""
             },
             "rupture/marche_rampe": {

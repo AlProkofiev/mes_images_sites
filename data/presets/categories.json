@@ -78,6 +78,14 @@
             "highway/autre_wegoto"
         ]
     },
+    "category-roadworks": {
+        "geometry": "area",
+        "name": "Road Works",
+        "icon": "category-area",
+        "members": [
+            "roadworks"
+        ]
+    },
     "category-rupture": {
         "geometry": "point",
         "name": "Rupture de niveau",
