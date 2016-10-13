@@ -578,8 +578,7 @@
     "roadworksbegin": {
         "key": "roadworksbegin",
         "type": "text",
-        "label": "Date de début de travaux",
-        "placeholder": "JJ/MM/AAAA"
+        "label": "Date de début de travaux"
     },
     "roadworksend": {
         "key": "roadworksend",
