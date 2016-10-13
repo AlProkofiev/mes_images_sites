@@ -7,7 +7,7 @@
     "tags": {
         "area": "yes"
     },
-    "removeTags": { },
+    "removeTags": { "name":"*"},
     "icon": "highway-path",
     "geometry": ["area"]
 }
