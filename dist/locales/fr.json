@@ -667,7 +667,7 @@
             },
 	    "category-roadworks":{
 		"name": "Travaux"
-	    },
+	    }
         },
         "fields": {
 	     
@@ -3134,11 +3134,7 @@
                 "terms": "Route inconnue"
             },
 		
-            "highway/roadworks_date_begin": {
-                "name": "Date de début"
-            },
-
-	    
+           
 
             "poa/atm_wegoto": {
                 "name": "Distributeur de billet"
