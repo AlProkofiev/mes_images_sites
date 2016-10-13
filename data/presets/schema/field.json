@@ -66,8 +66,7 @@
                 "localized",
                 "wikipedia",
                 "typeCombo",
-                "restrictions",
-		"date"
+                "restrictions"
             ],
             "required": true
         },

@@ -596,9 +596,8 @@
         "reference": {
             "key": "area"
         },
-        "type": "typeCombo",
+        "type": "multiCombo",
         "label": "Start date",
-        "placeholder": "Not Specified",
         "strings": {
             "types": {
                 "day_begin": "day",
