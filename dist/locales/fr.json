@@ -664,7 +664,10 @@
             },
             "category-water-line": {
                 "name": "Éléments aquatiques pour chemins"
-            }
+            },
+	    "category-roadworks":{
+		"name": "Travaux"
+	    }
         },
         "fields": {
 	     
