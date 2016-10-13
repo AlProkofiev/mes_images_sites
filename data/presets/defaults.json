@@ -1,6 +1,7 @@
 {
     "area": [
-	"category-roadworks"
+	"category-roadworks",
+        "area"
     ],
     "line": [
         "category-road",
