@@ -81,7 +81,7 @@
     "category-roadworks": {
         "geometry": "area",
         "name": "Road Works",
-        "icon": "category-roads",
+        "icon": "danger",
         "members": [
             "highway/roadworks"
         ]
